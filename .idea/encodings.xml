@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/adminbek/add_IndexNews.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminbek/add_mehnat.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminbek/add_teacher.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminbek/addteacher.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teachers.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/univers.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vasiylik.php" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

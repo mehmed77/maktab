@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta name="viewport" content="width=device-width; initial-scale=1"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<link rel="shortcut icon" type="image/x-icon" href="/bitrix/templates/sitara/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/common.css?14347115692274"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="cultural tours to uzbekistan, cultural uzbekistan, travel cultural uzbekistan, see uzbekistan culture, central asia cultural tours" />
+<meta name="description" content="A home for great scientists, philosophers and poets." />
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
+
+
+<link href="//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/cache/css/s1/sitara/kernel_main/kernel_main.css?144342153739563" type="text/css"  rel="stylesheet" />
+<link href="//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/cache/css/s1/sitara/template_be2a8f2d1ac07664353b85bc1a7a6066/template_be2a8f2d1ac07664353b85bc1a7a6066.css?14528817052365" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+
+
+	<link rel="stylesheet" type="text/css" href="//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/colors.css?14322985916264"/>
+	
+
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/jquery.fancybox.css?14322985945009' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/jquery.bxslider.css?14322985943608' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/font-awesome.min.css?143229859417780' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/bootstrap.css?143229859438693' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/bootstrap-theme.css?143229859422334' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/jquery.formstyler.css?143229859410618' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/jquery-ui.css?143229859422008' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/fonts.css?14322985941479' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/forms.css?14322985942409' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/additional.css?14338338028548' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/style.css?143469749346613' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/media.css?143351442712095' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/nivo-slider.css?14322985951938' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/owl.carousel.css?14332272681476' rel='stylesheet'>
+	<link href='//sitara.com.opt-css.1c-bitrix-cdn.ru/bitrix/templates/sitara/css/owl.theme.css?14337626152741' rel='stylesheet'>
+
+													<!--[if lt IE 9]>
+	 <![endif]-->
+			<title>Cultural Tours to Uzbekistan</title>
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="panel"></div>
+<div id='main-container'>
+	<header id='header'>
+		<div class='container header-container'>
+			<div class='header-contacts'>
+				<a class='logoMin' href='/'>
+					<img src='//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/bg/logo-2.png?14337481916479' alt="">
+				</a>
+				<!-- logo end -->
+				<div class="head-print">
+					<input type="button" value=" " onclick="print()">
+				</div>
+				<div class='h-tel-numb'>
+					(99871) 2814148				</div>
+				<div class='h-mail'>
+					<a href='mailto:tashkent@sitara.com'>
+						tashkent@sitara.com					</a>
+				</div>
+			</div>
+			<div class='header-bottom'>
+				
+				<div class='lang-nav'>
+					<div class='lang-header'>
+						<div class='this-inner'></div>
+					</div>
+
+					
+
+<ul>
+
+	<li>
+		<a href='/' class='active'>
+			<img title="" alt="" src='//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/bg/lang-2.png?14337481891466'>
+			<span>English</span>
+		</a>
+	</li>
+	<li>
+		<a href='http://www.ru.sitara.com'>
+			<img title="" alt="" src='//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/bg/lang-1.png?1433748189523'>
+			<span>Russian</span>
+		</a>
+	</li>
+</ul>				</div>
+				<div class="mob-send">
+					<a href="#">	
+					</a>
+				</div>
+				<div class="gal-head">
+					<a href="/gallery/"></a>
+				</div>
+				<!-- lang-nav end -->
+				<a class='logo' href='/'></a>
+				<!-- logo end -->
+				<div class='menu-header'>
+					<i></i>
+				</div>
+				<div class="sb-src-wr" >
+				<div class="sb-search clearfix" id="sb-search">
+						<form action="/search/index.php"  method="get">
+							<input type="text" id="search" name="q" value="" placeholder="Enter your search term..." class="sb-search-input">
+							<input type="submit" value="" class="sb-search-submit">
+							<span class="sb-icon-search"></span>
+						</form>
+				</div>
+				</div>
+				<!-- menu-header end -->
+				<div class='search-block'>
+					<div class='search-header'>
+						<i></i>
+					</div>
+					<!-- search-header end -->
+					<div class="search-form">
+<form action="/search/index.php">
+	<input type="text" name="q" value="" size="15" maxlength="50" />&nbsp;<input name="s" type="submit" value="" />
+</form>
+</div>				</div>
+			
+				<!-- search-block end -->
+			</div>
+			<!-- header-bottom end -->
+		</div>
+		<!-- coontainer end -->
+
+<div class='main-menu-cont'>
+	<div class='container'>
+		<nav class='main-nav' role='navigation'>
+			<ul>
+
+									<li id="menu-item-116">
+						<a href='/country/uzbekistan/'>
+							Uzbekistan						</a>
+													<ul>
+																	<li>
+										<div class='h3'>Tours</div>
+										<ul>
+																							<li>
+													<a href='/tours/historical/'>Historical tours</a>
+												</li>
+																							<li>
+													<a href='/tours/combined/'>Combined Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/city/'>City Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/heritage/'>Heritage Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/cultural/'>Cultural Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/adventure/'>Adventure tours</a>
+												</li>
+																					</ul>
+									</li>
+																									<li>
+										<div class='h3'>Hotels</div>
+										<ul>
+																							<li>
+													<a href='/hotels/tashkent/'>Hotels in Tashkent</a>
+												</li>
+																							<li>
+													<a href='/hotels/samarkand/'>Hotels in Samarkand</a>
+												</li>
+																							<li>
+													<a href='/hotels/bukhara/'>Hotels in Bukhara</a>
+												</li>
+																							<li>
+													<a href='/hotels/khiva/'>Hotels in Khiva</a>
+												</li>
+																							<li>
+													<a href='/hotels/shakhrisabz/'>Hotels in Shakhrisabz</a>
+												</li>
+																							<li>
+													<a href='/hotels/nukus/'>Hotels in Nukus</a>
+												</li>
+																							<li>
+													<a href='/hotels/termez/'>Hotels in Termez</a>
+												</li>
+																							<li>
+													<a href='/hotels/ferghana/'>Hotels in Ferghana</a>
+												</li>
+											
+										</ul>
+									</li>
+																
+									<li>
+										<div class='h3'>About Uzbekistan</div>
+										<ul>
+											
+																								<li>
+													<a href='/about/museums/'>Museums</a>
+												</li>
+											
+												
+																								<li>
+													<a href='/about/city/'>Cities & Regions</a>
+												</li>
+											
+																								<li>
+													<a href='/about/ensembles/'>Ensembles</a>
+												</li>
+																																		<li>
+													<a href='/about/element/people/'>People</a>
+												</li>
+																							<li>
+													<a href='/about/element/visa-support/'>Uzbekistan Visa support</a>
+												</li>
+																							<li>
+													<a href='/about/element/kilometer-chart/'>Kilometer Chart</a>
+												</li>
+																							<li>
+													<a href='/about/element/arts-crafts/'>Arts & Crafts</a>
+												</li>
+																							<li>
+													<a href='/about/element/culture-customs/'>Culture & Customs</a>
+												</li>
+																							<li>
+													<a href='/about/element/customs-control/'>Customs control</a>
+												</li>
+																							<li>
+													<a href='/about/element/festivals-holidays/'>Festivals & Holidays</a>
+												</li>
+																					</ul>
+									</li>
+															</ul>
+											</li>
+									<li id="menu-item-117">
+						<a href='/country/kazakhstan/'>
+							Kazakhstan						</a>
+													<ul>
+																	<li>
+										<div class='h3'>Tours</div>
+										<ul>
+																							<li>
+													<a href='/tours/historical-kazakhstan/'>Historical Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/combined-kazakhstan/'>Combined Tours</a>
+												</li>
+																					</ul>
+									</li>
+																									<li>
+										<div class='h3'>Hotels</div>
+										<ul>
+																							<li>
+													<a href='/hotels/almaty/'>Hotels in Almaty</a>
+												</li>
+											
+										</ul>
+									</li>
+																
+									<li>
+										<div class='h3'>About Kazakhstan</div>
+										<ul>
+											
+																								<li>
+													<a href='/about/kazakhstan-cities/'>Cities & Regions</a>
+												</li>
+											
+												
+																								<li>
+													<a href='/about/kazakhstan-museums/'>Museums</a>
+												</li>
+																																		<li>
+													<a href='/about/element/kazakhstan-visa-support/'>Kazakhstan Visa support</a>
+												</li>
+																							<li>
+													<a href='/about/element/kz-people/'>People</a>
+												</li>
+																							<li>
+													<a href='/about/element/kz-arts-crafts/'>Arts & Crafts</a>
+												</li>
+																							<li>
+													<a href='/about/element/kz-culture-customs/'>Culture & Customs</a>
+												</li>
+																							<li>
+													<a href='/about/element/kz-festivals-holidays/'>Festivals & Holidays</a>
+												</li>
+																							<li>
+													<a href='/about/element/kz-customs-control/'>Customs control</a>
+												</li>
+																					</ul>
+									</li>
+															</ul>
+											</li>
+									<li id="menu-item-118">
+						<a href='/country/kyrgyzstan/'>
+							Kyrgyzstan						</a>
+													<ul>
+																	<li>
+										<div class='h3'>Tours</div>
+										<ul>
+																							<li>
+													<a href='/tours/historical-kyrgyzstan/'>Historical Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/trekking-kyrgyzstan/'>Trekking</a>
+												</li>
+																							<li>
+													<a href='/tours/combined-kyrgyzstan/'>Combined Tours</a>
+												</li>
+																					</ul>
+									</li>
+																									<li>
+										<div class='h3'>Hotels</div>
+										<ul>
+																							<li>
+													<a href='/hotels/bishkek/'>Hotels in Bishkek</a>
+												</li>
+																							<li>
+													<a href='/hotels/issyk-kul/'>Hotels in Issyk-Kul</a>
+												</li>
+																							<li>
+													<a href='/hotels/karakol/'>Hotels in Karakol</a>
+												</li>
+																							<li>
+													<a href='/hotels/osh/'>Hotels in Osh</a>
+												</li>
+																							<li>
+													<a href='/hotels/naryn/'>Hotels in Naryn</a>
+												</li>
+											
+										</ul>
+									</li>
+																
+									<li>
+										<div class='h3'>About Kyrgyzstan</div>
+										<ul>
+											
+																								<li>
+													<a href='/about/kyrgyzstan-cities/'>Cities & Regions</a>
+												</li>
+											
+												
+																								<li>
+													<a href='/about/kyrgyzstan-museums/'>Museums</a>
+												</li>
+																																		<li>
+													<a href='/about/element/kg-visa-support/'>Kyrgyzstan Visa Support</a>
+												</li>
+																							<li>
+													<a href='/about/element/kg-customs-control/'>Customs control</a>
+												</li>
+																							<li>
+													<a href='/about/element/kg-useful-information/'>Useful information</a>
+												</li>
+																							<li>
+													<a href='/about/element/kg-people/'>People</a>
+												</li>
+																							<li>
+													<a href='/about/element/kg-arts-crafts/'>Arts & Crafts</a>
+												</li>
+																							<li>
+													<a href='/about/element/kg-culture-customs/'>Culture & Customs</a>
+												</li>
+																							<li>
+													<a href='/about/element/kg-festivals-holidays/'>Festivals & Holidays</a>
+												</li>
+																					</ul>
+									</li>
+															</ul>
+											</li>
+									<li id="menu-item-119">
+						<a href='/country/turkmenistan/'>
+							Turkmenistan						</a>
+													<ul>
+																	<li>
+										<div class='h3'>Tours</div>
+										<ul>
+																							<li>
+													<a href='/tours/archeological-turkmenistan/'>Archeological tours</a>
+												</li>
+																							<li>
+													<a href='/tours/combined-tours/'>Combined Tours</a>
+												</li>
+																					</ul>
+									</li>
+																								
+									<li>
+										<div class='h3'>About Turkmenistan</div>
+										<ul>
+											
+																								<li>
+													<a href='/about/turkmenistan-cities/'>Cities & Regions</a>
+												</li>
+											
+												
+																								<li>
+													<a href='/about/turkmenistan-museums/'>Museums</a>
+												</li>
+																																		<li>
+													<a href='/about/element/tm-visa-support/'>Turkmenistan Visa support</a>
+												</li>
+																							<li>
+													<a href='/about/element/tm-people/'>People</a>
+												</li>
+																							<li>
+													<a href='/about/element/tm-arts-crafts/'>Arts & Crafts</a>
+												</li>
+																							<li>
+													<a href='/about/element/tm-culture-customs/'>Culture & Customs</a>
+												</li>
+																							<li>
+													<a href='/about/element/tm-festivals-holidays/'>Festivals & Holidays</a>
+												</li>
+																							<li>
+													<a href='/about/element/tm-customs-control/'>Customs control</a>
+												</li>
+																					</ul>
+									</li>
+															</ul>
+											</li>
+									<li id="menu-item-120">
+						<a href='/country/tajikistan/'>
+							Tajikistan						</a>
+													<ul>
+																	<li>
+										<div class='h3'>Tours</div>
+										<ul>
+																							<li>
+													<a href='/tours/historical-tajikistan/'>Historical Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/adventure-tajikistan/'>Adventure Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/combined-tajikistan/'>Combined Tours</a>
+												</li>
+																					</ul>
+									</li>
+																								
+									<li>
+										<div class='h3'>About Tajikistan</div>
+										<ul>
+											
+																								<li>
+													<a href='/about/tajikistan-cities/'>Cities & Regions</a>
+												</li>
+											
+												
+																								<li>
+													<a href='/about/tajikistan-museums/'>Museums</a>
+												</li>
+																																		<li>
+													<a href='/about/element/tj-visa-support/'>Tajikistan Visa support</a>
+												</li>
+																							<li>
+													<a href='/about/element/tj-people/'>People</a>
+												</li>
+																							<li>
+													<a href='/about/element/tj-arts-crafts/'>Arts & Crafts</a>
+												</li>
+																							<li>
+													<a href='/about/element/tj-culture-customs/'>Culture & Customs</a>
+												</li>
+																							<li>
+													<a href='/about/element/tj-festivals-holidays/'>Festivals & Holidays</a>
+												</li>
+																					</ul>
+									</li>
+															</ul>
+											</li>
+									<li id="menu-item-121">
+						<a href='/country/pakistan/'>
+							Pakistan						</a>
+													<ul>
+																	<li>
+										<div class='h3'>Tours</div>
+										<ul>
+																							<li>
+													<a href='/tours/trekking-pakistan/'>Trekking Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/combined-pakistan/'>Combined Tours</a>
+												</li>
+																					</ul>
+									</li>
+																								
+									<li>
+										<div class='h3'>About Pakistan</div>
+										<ul>
+											
+																								<li>
+													<a href='/about/pakistan-cities/'>Cities & Regions</a>
+												</li>
+											
+																																			<li>
+													<a href='/about/element/pk-visa-support/'>Pakistan Visa support</a>
+												</li>
+																							<li>
+													<a href='/about/element/pk-people/'>People</a>
+												</li>
+																							<li>
+													<a href='/about/element/pk-arts-crafts/'>Arts & Crafts</a>
+												</li>
+																							<li>
+													<a href='/about/element/pk-customs-control/'>Customs control</a>
+												</li>
+																							<li>
+													<a href='/about/element/pk-festivals-holidays/'>Festivals & Holidays</a>
+												</li>
+																					</ul>
+									</li>
+															</ul>
+											</li>
+									<li id="menu-item-122">
+						<a href='/country/afghanistan/'>
+							Afghanistan						</a>
+													<ul>
+																	<li>
+										<div class='h3'>Tours</div>
+										<ul>
+																							<li>
+													<a href='/tours/historical-afghanistan/'>Historical Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/combined-afghanistan/'>Combined Tours</a>
+												</li>
+																					</ul>
+									</li>
+																								
+									<li>
+										<div class='h3'>About Afghanistan</div>
+										<ul>
+											
+																								<li>
+													<a href='/about/afghanistan-cities/'>Cities & Regions</a>
+												</li>
+											
+																																			<li>
+													<a href='/about/element/af-visa-support/'>Afghanistan Visa support</a>
+												</li>
+																							<li>
+													<a href='/about/element/af-customs-control/'>Customs control</a>
+												</li>
+																							<li>
+													<a href='/about/element/af-people/'>People</a>
+												</li>
+																							<li>
+													<a href='/about/element/af-arts-crafts/'>Arts & Crafts</a>
+												</li>
+																							<li>
+													<a href='/about/element/af-culture-customs/'>Culture & Customs</a>
+												</li>
+																							<li>
+													<a href='/about/element/af-festivals-holidays/'>Festivals & Holidays</a>
+												</li>
+																					</ul>
+									</li>
+															</ul>
+											</li>
+									<li id="menu-item-123">
+						<a href='/country/china/'>
+							China						</a>
+													<ul>
+																	<li>
+										<div class='h3'>Tours</div>
+										<ul>
+																							<li>
+													<a href='/tours/combined-china/'>Combined Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/historical-china/'>Historical Tours</a>
+												</li>
+																					</ul>
+									</li>
+																								
+									<li>
+										<div class='h3'>About China</div>
+										<ul>
+											
+												
+																								<li>
+													<a href='/about/china-cities/'>Cities & Regions</a>
+												</li>
+																																		<li>
+													<a href='/about/element/cn-visa-support/'>China Visa support</a>
+												</li>
+																							<li>
+													<a href='/about/element/cn-people/'>People</a>
+												</li>
+																							<li>
+													<a href='/about/element/cn-arts-crafts/'>Arts & Crafts</a>
+												</li>
+																							<li>
+													<a href='/about/element/cn-culture-customs/'>Culture & Customs</a>
+												</li>
+																							<li>
+													<a href='/about/element/cn-festivals-holidays/'>Festivals & Holidays</a>
+												</li>
+																							<li>
+													<a href='/about/element/cn-customs-control/'>Customs control</a>
+												</li>
+																					</ul>
+									</li>
+															</ul>
+											</li>
+									<li id="menu-item-124">
+						<a href='/country/iran/'>
+							Iran						</a>
+													<ul>
+																	<li>
+										<div class='h3'>Tours</div>
+										<ul>
+																							<li>
+													<a href='/tours/historical-tours/'>Historical Tours</a>
+												</li>
+																							<li>
+													<a href='/tours/iran-city-tours/'>City Tours</a>
+												</li>
+																					</ul>
+									</li>
+																								
+									<li>
+										<div class='h3'>About Iran</div>
+										<ul>
+											
+																								<li>
+													<a href='/about/iran-cities/'>Cities & Regions</a>
+												</li>
+											
+																																			<li>
+													<a href='/about/element/iran-visa-support/'>Iran Visa support</a>
+												</li>
+																							<li>
+													<a href='/about/element/ir-customs-control/'>Customs control</a>
+												</li>
+																							<li>
+													<a href='/about/element/ir-people/'>People</a>
+												</li>
+																							<li>
+													<a href='/about/element/ir-arts-crafts/'>Arts & Crafts</a>
+												</li>
+																							<li>
+													<a href='/about/element/ir-culture-customs/'>Culture & Customs</a>
+												</li>
+																							<li>
+													<a href='/about/element/ir-festivals-holidays/'>Festivals & Holidays</a>
+												</li>
+																					</ul>
+									</li>
+															</ul>
+											</li>
+							</ul>
+		</nav>
+		<!-- main-nav end -->
+	</div>
+</div>
+<!-- main-menu-cont end -->
+	</header>
+	<div class="header-contacts-print">
+				<!-- logo end -->
+				<div class="h-tel-numb">
+					(99871) 2814148				
+				</div> 
+				<div class="h-mail">
+					<a href="mailto:tashkent@sitara.com">
+						tashkent@sitara.com					
+						</a>
+				</div>
+	</div>
+	<!-- header end -->
+	<article class='container' id='content'>
+		<section id='column-1'>
+
+			
+									<div class='cats-listView'>
+			<div class='this-title'>
+				Tours			</div>
+			<ul>
+														<li>
+						<a  href='/tours/historical/'>Historical tours</a>
+					</li>
+														<li>
+						<a  href='/tours/combined/'>Combined Tours</a>
+					</li>
+														<li>
+						<a  href='/tours/city/'>City Tours</a>
+					</li>
+														<li>
+						<a  href='/tours/heritage/'>Heritage Tours</a>
+					</li>
+														<li>
+						<a  class='active' href='/tours/cultural/'>Cultural Tours</a>
+					</li>
+														<li>
+						<a  href='/tours/adventure/'>Adventure tours</a>
+					</li>
+							</ul>
+		</div>
+		<!-- cats-listView end -->
+					<div class='cats-listView'>
+			<div class='this-title'>
+				Hotels			</div>
+			<ul>
+														<li>
+						<a  href='/hotels/tashkent/'>Hotels in Tashkent</a>
+					</li>
+														<li>
+						<a  href='/hotels/samarkand/'>Hotels in Samarkand</a>
+					</li>
+														<li>
+						<a  href='/hotels/bukhara/'>Hotels in Bukhara</a>
+					</li>
+														<li>
+						<a  href='/hotels/khiva/'>Hotels in Khiva</a>
+					</li>
+														<li>
+						<a  href='/hotels/shakhrisabz/'>Hotels in Shakhrisabz</a>
+					</li>
+														<li>
+						<a  href='/hotels/nukus/'>Hotels in Nukus</a>
+					</li>
+														<li>
+						<a  href='/hotels/termez/'>Hotels in Termez</a>
+					</li>
+														<li>
+						<a  href='/hotels/ferghana/'>Hotels in Ferghana</a>
+					</li>
+							</ul>
+		</div>
+		<!-- cats-listView end -->
+					<div class='cats-listView'>
+			<div class='this-title'>
+				About Uzbekistan			</div>
+			<ul>
+														
+										<li>
+						<a  href='/about/museums/'>Museums</a>
+					</li>
+																			
+										<li>
+						<a  href='/about/city/'>Cities & Regions</a>
+					</li>
+														
+										<li>
+						<a  href='/about/ensembles/'>Ensembles</a>
+					</li>
+																	<li>
+						<a  href='/about/element/people/'>People</a>
+					</li>
+													<li>
+						<a  href='/about/element/visa-support/'>Uzbekistan Visa support</a>
+					</li>
+													<li>
+						<a  href='/about/element/kilometer-chart/'>Kilometer Chart</a>
+					</li>
+													<li>
+						<a  href='/about/element/arts-crafts/'>Arts & Crafts</a>
+					</li>
+													<li>
+						<a  href='/about/element/culture-customs/'>Culture & Customs</a>
+					</li>
+													<li>
+						<a  href='/about/element/customs-control/'>Customs control</a>
+					</li>
+													<li>
+						<a  href='/about/element/festivals-holidays/'>Festivals & Holidays</a>
+					</li>
+							</ul>
+		</div>
+		
+		
+			
+
+			<div class='side-contacts'>
+				<div class='h4'>
+					Contacts				</div>
+				<p>
+					45/42 Shota Rustaveli Street<br>100100<br>Tashkent, Uzbekistan				</p>
+
+				<p>
+					<span>E-mail:</span>
+					sales.tashkent@sitara.com				</p>
+
+				<p>
+					<span>Phone (Uzbekistan):</span>
+ (99871) 2814148, (99871) 2814149, (99871) 2553504				</p>
+
+				<p class='fax'>
+					<span>Fax:</span>
+					(99871) 1206500				</p>
+				
+				<p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.9732842105273!2d69.25636749999997!3d41.28768589999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8aec3b4270e5%3A0x4f90f308c09a90cf!2zNDUgU2hvdGEgUnVzdGF2ZWxpIGtvJ2NoYXNpLCDQotC-0YjQutC10L3Rgiwg0KPQt9Cx0LXQutC40YHRgtCw0L0!5e0!3m2!1sru!2sru!4v1430915063118" width="220" height="200" frameborder="0" style="border:0"></iframe>
+				</p>
+			</div>
+			<!-- side-contacts end -->
+			
+
+
+
+
+<div class="side-networks">
+	<div class="h4">
+		 Social links:
+	</div>
+	<div class="clearfix">
+		<!--noindex--><a href="https://www.facebook.com/sitaracom" rel="nofollow" target="_blank"> <img src="//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/img/net-1.png?14337482203524" title="" alt="">&nbsp; </a><!--/noindex--><!--noindex--><a href="http://twitter.com/SitaraTravel" rel="nofollow" target="_blank"><img src="//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/img/net-2.png?14337482203646" title="" alt=""></a><!--/noindex-->&nbsp;&nbsp; 
+		<!--noindex--><a href="https://vk.com/public98442109" rel="nofollow" target="_blank"><img src="//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/img/net-3.png?14337482213769" title="" alt=""> </a><!--/noindex-->&nbsp;<a href="#"><img src="//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/img/net-4.png?14337482213644" title="" alt=""> </a>&nbsp;<a href="#"><img src="//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/img/net-5.png?14337482223724" title="" alt=""> </a>
+	</div>
+<br>
+<div class="fb-like" data-href="http://sitara.com/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+ <!-- side-networks end --><br>
+<br>		</section>
+
+		<!-- column-1 end -->
+		<article id='main-content'>
+			<div class='main-content-inner'>
+			
+			
+<div class='modal-wind' id='appSend'>
+	<div class='modal-wind-inner'>
+		<div class='h2 align-center'>
+			Send request			<span class="close-mod"></span>
+		</div>
+		<div class='full-forms'>
+			<div class="successJ"></div>
+			<div class="errorJ"></div>
+			<form id="orderForm" name="orderForm">
+				<input type="hidden" name="mode" value="orderForm"/>
+
+				<div class='fieldForm'>
+					<input placeholder='Name' name="name" required="required" type='text'>
+				</div>
+				<!-- fieldForm end -->
+				<div class='fieldForm'>
+					<input placeholder='E-mail' type='email' name="email" required="required">
+				</div>
+				<!-- fieldForm end -->
+				<div class='fieldForm'>
+					<input class='code' placeholder='Country code' name="code" required="required" type='text'>
+
+					<div class='overflowed'>
+						<input placeholder='Phone number' name="phone" required="required" type='text'>
+					</div>
+				</div>
+				<!-- fieldForm end -->
+				<div class='fieldForm'>
+					<textarea placeholder='Message' name="text" required="required"></textarea>
+				</div>
+				<!-- fieldForm end -->
+				<div class='fieldForm align-center'>
+					<input class='button-1' type='submit' value='Send'>
+				</div>
+			</form>
+		</div>
+	</div>
+</div><div class='breadcrumbs'>
+	<a href='/'>
+		Home	</a>
+	<i>»</i>
+	<a href='/country/uzbekistan/'>
+		Uzbekistan	</a>
+	<i>»</i>
+	<span>Cultural Tours</span>
+</div>
+
+<div class='listView-1 tours-list'>
+	<div class='this-header'>
+		<h1>
+					</h1>
+	</div>
+	<ul class=""> 
+								<li id="bx_3966226736_436_">
+				<a href='/tours/element/pottery-in-uzbekistan/'>
+										<span class='before'>
+                      <img src='//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/bg/catalog-hover-orn.png?14337481852988' title="" alt="">
+                      <span>View more</span>
+                    </span>
+					<!-- before end -->
+                    <span class='img-cont'>
+                      <img src='/upload/resize_cache/iblock/7c4/218_150_2/7c478801f5577cab9dc0220ba6fce0ac.JPG' alt="Akbar's house" title="Pottery in Uzbekistan">
+                    </span>
+					<!-- img-cont end -->
+                    <span class='this-title hr-title'>
+                      <strong>Pottery in Uzbekistan</strong>
+                    </span>
+					<!-- this-title end -->
+                    <span class='tour-type'>
+                      Cultural Tours                    </span>
+					<!-- tour-type end -->
+                    <span class='this-price'>
+                      <span class='pull-left'>
+                         Uzbekistan                      </span>
+                      <span class='price'>
+                         on request                      </span>
+                    </span>
+					<!-- tours-price -->
+                    <span class='this-date'>
+                      All year                    </span>
+					<!-- this-date end -->
+				</a>
+			</li>
+								<li id="bx_3966226736_152_">
+				<a href='/tours/element/textile-tour-of-uzbekistan/'>
+										<span class='before'>
+                      <img src='//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/bg/catalog-hover-orn.png?14337481852988' title="" alt="">
+                      <span>View more</span>
+                    </span>
+					<!-- before end -->
+                    <span class='img-cont'>
+                      <img src='/upload/resize_cache/iblock/14f/218_150_2/14f22f5875819ebd617093bb7930984b.JPG' alt="Pillowcase Desighn" title="Textile Tour of Uzbekistan">
+                    </span>
+					<!-- img-cont end -->
+                    <span class='this-title hr-title'>
+                      <strong>Textile Tour of Uzbekistan</strong>
+                    </span>
+					<!-- this-title end -->
+                    <span class='tour-type'>
+                      Cultural Tours                    </span>
+					<!-- tour-type end -->
+                    <span class='this-price'>
+                      <span class='pull-left'>
+                         Uzbekistan                      </span>
+                      <span class='price'>
+                         on request                      </span>
+                    </span>
+					<!-- tours-price -->
+                    <span class='this-date'>
+                      All year                    </span>
+					<!-- this-date end -->
+				</a>
+			</li>
+								<li id="bx_3966226736_151_">
+				<a href='/tours/element/in-quest-for-the-best-of-uzbekistan/'>
+										<span class='before'>
+                      <img src='//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/bg/catalog-hover-orn.png?14337481852988' title="" alt="">
+                      <span>View more</span>
+                    </span>
+					<!-- before end -->
+                    <span class='img-cont'>
+                      <img src='/upload/resize_cache/iblock/a67/218_150_2/fd271ff704d61b9b1f25ccbfa78dc6e7.JPG' alt="" title="In Quest for the best of Uzbekistan">
+                    </span>
+					<!-- img-cont end -->
+                    <span class='this-title hr-title'>
+                      <strong>In Quest for the best of Uzbekistan</strong>
+                    </span>
+					<!-- this-title end -->
+                    <span class='tour-type'>
+                      Historical tours                    </span>
+					<!-- tour-type end -->
+                    <span class='this-price'>
+                      <span class='pull-left'>
+                         Uzbekistan                      </span>
+                      <span class='price'>
+                         on request                      </span>
+                    </span>
+					<!-- tours-price -->
+                    <span class='this-date'>
+                      All year                    </span>
+					<!-- this-date end -->
+				</a>
+			</li>
+		
+	</ul>
+
+				</div><div class='separator'></div>
+	<!-- separator end -->
+	<div class='shares-list'>
+		<div class='sh-label'>
+			Share:
+		</div>
+	
+		<div class="share42init"></div>
+	</div>
+	
+</div>
+<!-- main-content-inner end -->
+</article>
+<!-- main-content end -->
+
+<aside id='column-2'>
+	<div class='app-send'>
+		<a href='#'>
+			Send request		</a>
+	</div>
+	<!-- app-send end -->
+			<div id="langdiv" rel="en"></div>
+<div class='hotels-filtr'>
+	<div class='h4'>
+		Find a Hotel	</div>
+	<form method="get" action="/hotels/all/">
+	
+	<input type="hidden" value="" name="lang">
+		<div class='fieldForm'>
+			<div class='label'>By location</div>
+			<select id="selected-hotels"  name="sectionID">
+									<option 						value="105">Hotels in Uzbekistan</option>
+									<option 						value="106">Hotels in Kazakhstan</option>
+									<option 						value="107">Hotels in Kyrgyzstan</option>
+									<option 						value="108">Hotels in Turkmenistan</option>
+									<option 						value="109">Hotels in Tajikistan</option>
+									<option 						value="110">Hotels in Pakistan</option>
+									<option 						value="111">Hotels in Afghanistan</option>
+									<option 						value="112">Hotels in China</option>
+									<option 						value="113">Hotels in Iran</option>
+							</select>
+		</div>
+		<!-- fieldForm end -->
+		<div class='fieldForm selectBox'>
+			<div class='label'>By rating</div>
+			<select id="selected-star" name="star">
+				<option value="">--Choose...--</option>
+
+				<option  value="1">1 star</option>
+				<option  value="2">2 star</option>
+				<option  value="3">3 star</option>
+				<option  value="4">4 star</option>
+				<option  value="5">5 star</option>
+
+			</select>
+		</div>
+		<!-- fieldForm end -->
+		<div class='fieldForm'>
+			<input class='button-1' type='submit' value='Search'>
+			<input class='button-1' id="resetButton"  type='reset' value='Reset'>
+		</div>
+	</form>
+</div>
+<!-- hotels-filtr end -->		<aside class='randomBanner'>
+			<h3 style="text-align: left;" class=""> <b>Photo Gallery</b></h3>
+ <a href="http://sitara.com/gallery/"><img src="//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/img/random-banner.jpg?143374822335602" alt="Central Asia photo gallery" title="Central Asia photo gallery"></a>		</aside>
+		<!-- randomBanner -->
+	
+
+</aside>
+<!-- column-2 end -->
+</article>
+<!-- content end -->
+</div>
+<!-- main-container end -->
+<footer id='footer'>
+	<div class='footer-top'>
+		<div class='container clearfix'>
+			
+<div class='subscribe-cont'>
+	<div class='this-title'>
+		Newsletter / Tour Specials	</div>
+	<div class='full-forms'>
+
+<!-- subscribe-cont end -->
+<div class="subscribe-form"  id="subscribe-form">
+<!--'start_frame_cache_subscribe-form'-->	<form action="/personal/subscribe/subscr_edit.php">
+
+		<div class='fieldForm'>
+			<input placeholder='Name' type='text'>
+		</div>
+
+		<div class='fieldForm'>
+			<input type="text" name="sf_EMAIL" placeholder='e-mail'  value="" title="Enter your e-mail" />
+		</div>
+
+		<table class="subscr-form-btn">
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td><input type="submit" class='button-1 full-button' name="OK" value="Subscribe" /></td>
+			</tr>
+		</table>
+	</form>
+<!--'end_frame_cache_subscribe-form'--></div>
+
+	</div>
+</div>
+			<div class='footer-nav'>
+				<ul>
+					<li>
+	<div class='this-title'>Destinations</div>
+	<ul>
+				<li>
+			<a href='/country/uzbekistan/'>Uzbekistan</a>
+		</li>
+				<li>
+			<a href='/country/kazakhstan/'>Kazakhstan</a>
+		</li>
+				<li>
+			<a href='/country/kyrgyzstan/'>Kyrgyzstan</a>
+		</li>
+				<li>
+			<a href='/country/turkmenistan/'>Turkmenistan</a>
+		</li>
+				<li>
+			<a href='/country/tajikistan/'>Tajikistan</a>
+		</li>
+				<li>
+			<a href='/country/pakistan/'>Pakistan</a>
+		</li>
+				<li>
+			<a href='/country/afghanistan/'>Afghanistan</a>
+		</li>
+				<li>
+			<a href='/country/china/'>China</a>
+		</li>
+				<li>
+			<a href='/country/iran/'>Iran</a>
+		</li>
+			</ul>
+</li>
+					<li>
+	<div class='this-title'>Hotels</div>
+	<ul>
+				<li>
+			<a href='/hotels/hotels-in-uzbekistan/'>Hotels in Uzbekistan</a>
+		</li>
+				<li>
+			<a href='/hotels/hotels-in-kazakhstan/'>Hotels in Kazakhstan</a>
+		</li>
+				<li>
+			<a href='/hotels/hotels-in-kyrgyzstan/'>Hotels in Kyrgyzstan</a>
+		</li>
+				<li>
+			<a href='/hotels/hotels-in-turkmenistan/'>Hotels in Turkmenistan</a>
+		</li>
+				<li>
+			<a href='/hotels/hotels-in-tajikistan/'>Hotels in Tajikistan</a>
+		</li>
+				<li>
+			<a href='/hotels/hotels-in-pakistan/'>Hotels in Pakistan</a>
+		</li>
+				<li>
+			<a href='/hotels/hotels-in-afghanistan/'>Hotels in Afghanistan</a>
+		</li>
+				<li>
+			<a href='/hotels/hotels-in-china/'>Hotels in China</a>
+		</li>
+				<li>
+			<a href='/hotels/hotels-in-iran/'>Hotels in Iran</a>
+		</li>
+			</ul>
+</li>
+
+					<li>
+						<div class='this-title'>Quick links</div>
+	<ul>
+				<li>
+			<a href='/info/about-us'>
+				About Us			</a>
+		</li>
+				<li>
+			<a href='/info/our-services'>
+				Our Services			</a>
+		</li>
+				<li>
+			<a href='/info/for-travel-agents'>
+				For Travel Agents			</a>
+		</li>
+				<li>
+			<a href='/info/visa-support'>
+				Visa Support			</a>
+		</li>
+		
+	</ul>						<div class="bottom-menu">
+<ul>
+		<li><a href="/transport/">Transport</a></li>
+		<li><a href="/gallery/">Photo Gallery</a></li>
+		<li><a href="/news/">News</a></li>
+	</ul>
+</div>
+					</li>
+				</ul>
+			</div>
+			<!-- footer end -->
+		</div>
+		<!-- container end -->
+	</div>
+	<!-- footer-top end -->
+	<div class='footer-bottom'>
+		<div class='container clearfix'>
+			<div class='bottom-img'></div>
+			<!-- bottom-img end -->
+			<div class='created-by'>
+				Please, do not use materials from web site without reference.
+			</div>
+			<!-- created-by end -->
+			<div class='copyright'>
+				Copyright © 1974-2016 Sitara Travel. All Rights Reserved.
+			</div>
+			<!-- copyright end -->
+			<div class='ratings'>
+				<a href='#'>
+					<img title="" alt="" src='//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/img/rating.jpg?1433748222369'>
+				</a>
+				<a href='#'>
+					<img title="" alt="" src='//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/img/rating.jpg?1433748222369'>
+				</a>
+			</div>
+			<!-- ratings end -->
+		</div>
+	</div>
+	<!-- footer-bottom end -->
+
+<!-- footer end -->
+	<!-- appSend end -->
+
+<a href="#" id="inifiniteLoader"><img src="//sitara.com.opt-images.1c-bitrix-cdn.ru/bitrix/templates/sitara/images/ajax-loader.gif?143374818111516" title="" alt=""/></a>
+<a href="#top" class="top"><i class="fa fa-arrow-circle-o-up"></i></a>
+<!-- Yandex.Metrika counter -->
+<noscript><div><img src="https://mc.yandex.ru/watch/25103504" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</footer>
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<!-- {/literal} END JIVOSITE CODE -->
+<script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Loading...','JS_CORE_WINDOW_CLOSE':'Close','JS_CORE_WINDOW_EXPAND':'Expand','JS_CORE_WINDOW_NARROW':'Restore','JS_CORE_WINDOW_SAVE':'Save','JS_CORE_WINDOW_CANCEL':'Cancel','JS_CORE_H':'h','JS_CORE_M':'m','JS_CORE_S':'s','JS_CORE_NO_DATA':'- No data -','JSADM_AI_HIDE_EXTRA':'Hide extra items','JSADM_AI_ALL_NOTIF':'All notifications','JSADM_AUTH_REQ':'Authentication is required!','JS_CORE_WINDOW_AUTH':'Log In','JS_CORE_IMAGE_FULL':'Full size'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'en','FORMAT_DATE':'DD/MM/YYYY','FORMAT_DATETIME':'DD/MM/YYYY H:MI:SS T','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'-28800','SITE_ID':'s1','USER_ID':'','SERVER_TIME':'1453728982','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'059e37eb0077173e7438d96ed87ac1b3'});</script><script type="text/javascript" src="//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/cache/js/s1/sitara/kernel_main/kernel_main.js?1448019919240562"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js?144801983069721','/bitrix/js/main/core/core_ajax.js?144801983020698','/bitrix/js/main/json/json2.min.js?14322984923467','/bitrix/js/main/core/core_ls.js?14338350697365','/bitrix/js/main/session.js?14325458702511','/bitrix/js/main/core/core_window.js?143383506974831','/bitrix/js/main/utils.js?143254587130973','/bitrix/js/main/core/core_popup.js?143254588428778']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css?14325458732854','/bitrix/js/main/core/css/core_popup.css?143730688734473','/bitrix/templates/sitara/styles.css?1452881685200','/bitrix/templates/sitara/template_styles.css?14528816851885']); </script>
+
+
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "b58d22ef60440031132d6e397e3e46b9"]); _ba.push(["host", "sitara.com"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/jquery.js?143229859594846'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/jquery-ui.min.js?143229859570976'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/jquery.formstyler.min.js?143229859516018'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/jquery.fancybox.js?143229859548706'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/jcarousellite.js?143229859521709'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/PageScroll2id.min.js?143229859513026'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/classie.js?14322985951835'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/uisearch.js?14322985956114'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/modernizr.custom.js?14322985957671'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/galleria-1.3.5.min.js?143229859573828'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/jquery.nivo.slider.js?143229859529113'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/owl.carousel.js?143322727952797'></script>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/scripts.js?14337626869356'></script>
+<script src='//sitara.com.opt-js.1c-bitrix-cdn.ru/bitrix/templates/sitara/js/common.js?14350682152029'></script>
+
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+			window.onload = function () {
+				$('#menu-item-116').addClass('active');
+			}
+		</script><script type="text/javascript" src="http://sitara.com/share42/share42.js"></script><script>
+			new UISearch( document.getElementById( 'sb-search' ) );
+		</script>
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter25103504 = new Ya.Metrika({
+                    id:25103504,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<script type='text/javascript'>
+(function(){ var widget_id = '240tr1mO6V';
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
+</body>
+</html>

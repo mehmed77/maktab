@@ -1,0 +1,5 @@
+1. addteacher.php (add_teacher.php yordamchi) Bunda o'qituvchining shahsiy malumotlari kiritiladi va bazaga yozib qo'yiladi. { Kalit So'zi: salom admin men teacher qo'shmoqchiman }
+2. addmehnat.php  (add_mehnat.php yordamchi)  Bunda o'qituvchining mehnat faoliyati kiritiladi. Ishalash tartibi			 { Kalit so'zi: xayrli tong admin mehnat bo'limi kerak}	
+o'qtuvchining (id) si va (son) yani id bu identifikatsiya no'meri son mehnat foaliyati soni hisoblanadi.
+Masalan: addmehnat.php?id=1?&son=4  (Birinchi ID li o'qituvchi 4 joyda ishlaganini bildiradi.);
+3
