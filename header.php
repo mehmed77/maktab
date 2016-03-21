@@ -1,18 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<?php
+include("constants.php");
+?>
+<html>
 <head>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>6-Maktab</title>
-<!--    <link href="http://127.0.0.1/maktab/style.css" rel="stylesheet" type="text/css" media="all" />-->
-    <link href="http://127.0.0.1/maktab/css/default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="http://127.0.0.1/maktab/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
-	<script src="http://127.0.0.1/maktab/templatemo_image_fader.js" type="text/javascript"></script>
-	<script src="http://127.0.0.1/maktab/js/jquery.min.js" type="text/javascript"></script>
-	<script src="http://127.0.0.1/maktab/js/bootstrap.min.js" type="text/javascript"></script>
-    <!--[if IE 6]>
-    <![endif]-->
+    <title>Qibray tumani 6-maktab</title>
+	<script src="<?php print URL;?>js/jquery.min.js" type="text/javascript"></script>
+	<script src="<?php print URL;?>js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="<?php print URL;?>templatemo_image_fader.js" type="text/javascript"></script>
+    <link href="<?php print URL;?>style/css/default.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="<?php print URL;?>style/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="<?php print URL;?>style/css/bootstrap-theme.css">
+    <link rel="shortcut icon" href="<?php print URL;?>style/img/favicon.ico" type="image/png">
+    <link href="<?php print URL;?>style/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
     <div id="wrapper">

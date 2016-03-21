@@ -1,11 +1,18 @@
 <?php
 	$link="home";
-	require "header.php";
+	include "header.php";
 	require "connect_db.php";
 	require "Menu.php";
 	$left_menu = new Menu();
 ?>
-
+<style>
+	#my-table{
+		background: #f4fff5;
+		font-size: 14px;
+		box-shadow: inset 0px 0px 1px 5px #f8f9ff, inset 0px 0px 0px 0px #f8f8f8, 0px 0px 2px 2px #f2f8ff;
+		border-radius: 0px 0px 5px 5px;
+	}
+</style>
 	<div id="banner">
 		<img src="images/maktab.jpg" width="1150" height="300" alt="" />
 	</div>
@@ -53,7 +60,9 @@
 		<!-- LEFT MENU END -->
 		<!-- CENTER  MENU  -->
 		<div class="col-xs-6">
-			<div class="h2 text-primary"> Yangiliklar </div>
+			<div class="h2 text-primary text-center" style="border-bottom: 1px dotted; margin-bottom: 10px;">
+				Saytimiz yangiliklari
+			</div>
 				<?php
 					$sql = mysql_query("select * from news ORDER BY date_news DESC LIMIT 0, 10");
 					$rows = mysql_num_rows($sql);
@@ -61,33 +70,75 @@
 						$newsId      = mysql_result($sql,$i,'id');
 						$newsMavzu   = mysql_result($sql,$i,'mavzu');
 						$newsImgLink = mysql_result($sql,$i,'img_link');
-						$newsShort   = substr(mysql_result($sql,$i,'short_news'),0,200)."...";
+						$newsShort   = substr(mysql_result($sql,$i,'short_news'),0,500)."...";
 						$newsRead    = mysql_result($sql,$i,'reading');
 						$newsDate    = mysql_result($sql,$i,'date_news');
 						$newsDate    = date("d.m.Y  H:i",$newsDate);
+						$newAuthor   = mysql_result($sql,$i,'author');
 				?>
-				<div class="news">
-					<div class="pull-left" style=" width: 130px; height: 130px;">
-						<img class="img-thumbnail" src="<?php print $newsImgLink; ?>" width="100%" height="100%">
-					</div>
-					<div style="margin-left: 140px; max-height: 100px;">
-						<span style="font-family: Consolas"><?php print $newsDate; ?></span><br>
-						<b style="font-size: 16px;"><?php print $newsMavzu; ?></b> <br>
-						<?php print $newsShort; ?>
-					</div>
-					<div style="margin-top: 5px;" class="pull-right">
-						<div class="news-form">
-							<b style="font-size: 16px;">O'qilgan:</b>
-							<b style="color: #000; margin-left: 5px; font-size: larger"><?php print $newsRead; ?></b>
+						<div style="width: 100%; padding: 0; margin-bottom: 10px;">
+							<!--    <div class="my-panel-body">-->
+							<br>
+								<table id="my-table" class="table table-bordered" width="100%">
+									<tr>
+										<td colspan="2">
+											<b style="float: left; left: 0px;"><?php print $newsMavzu; ?></b>
+												<button class="btn btn-default pull-right h3">
+													<span class="text-primary glyphicon glyphicon-thumbs-up"></span>
+												</button>
+										</td>
+									</tr>
+									<tr>
+										<td width="140" height="140">
+											<img width="100%" height="100%" src="<?php print $newsImgLink; ?>">
+										</td>
+										<td style="text-align: justify;">
+											<?php print $newsShort; ?>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<span class="glyphicon glyphicon-user"></span>
+											<?php
+											if($newAuthor == "" || $newAuthor == null){
+												print "Adminsitrator";
+											}else{
+												print $newAuthor;
+											};
+											?> &nbsp;&nbsp;&nbsp;
+											<span class="glyphicon glyphicon-time"></span>
+											<?php print $newsDate; ?> &nbsp;&nbsp;&nbsp;
+											<span class="glyphicon glyphicon-eye-open"></span>
+											<?php //print $val['news_count']; ?> 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+											<button class="pull-right btn btn-primary btn-sm"> &nbsp; Batafsil &nbsp; </button>
+										</td>
+									</tr>
+								</table>
+							<!--        </div>-->
 						</div>
-						&nbsp;
-							<a style="color: white" href="news.php?id=<?php print $newsId; ?>">
-								<div class="btn btn-info btn-sm">
-									Batafsil
-								</div>
-							</a>
-					</div>
-				</div>
+<!--				<div class="news">-->
+<!--					<div class="pull-left" style=" width: 130px; height: 130px;">-->
+<!--						<img class="img-thumbnail" src="--><?php //print $newsImgLink; ?><!--" width="100%" height="100%">-->
+<!--					</div>-->
+<!--					<div style="margin-left: 140px; max-height: 100px;">-->
+<!--						<span style="font-family: Consolas">--><?php //print $newsDate; ?><!--</span><br>-->
+<!--						<b style="font-size: 16px;">--><?php //print $newsMavzu; ?><!--</b> <br>-->
+<!--						--><?php //print $newsShort; ?>
+<!--					</div>-->
+<!--					<div style="margin-top: 5px;" class="pull-right">-->
+<!--						<div class="news-form">-->
+<!--							<b style="font-size: 16px;">O'qilgan:</b>-->
+<!--							<b style="color: #000; margin-left: 5px; font-size: larger">--><?php //print $newsRead; ?><!--</b>-->
+<!--						</div>-->
+<!--						&nbsp;-->
+<!--							<a style="color: white" href="news.php?id=--><?php //print $newsId; ?><!--">-->
+<!--								<div class="btn btn-info btn-sm">-->
+<!--									Batafsil-->
+<!--								</div>-->
+<!--							</a>-->
+<!--					</div>-->
+<!--				</div>-->
 			<?php } ?>
 		</div>
 		<!-- CENTER  MENU END -->
