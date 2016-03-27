@@ -24,7 +24,10 @@ var newsLike = {
                 if (json['success']) {
                     $('#content').parent().before('<div class="alert alert-success"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
                 }
-                document.getElementById("wishlist-total").innerHTML = json['total'];
+                if(json['danger']){
+                    $('#content').parent().before('<div class="alert alert-danger"><i class="fa fa-cog fa-spin"></i> ' + json['danger'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+                }
+                document.getElementById("LikeCount").innerHTML = json['total'];
                 $('html, body').animate({ scrollTop: 0 }, 'slow');
             },
             error: function(xhr, ajaxOptions, thrownError) {

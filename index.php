@@ -78,6 +78,7 @@
 						$newsDate    = mysql_result($sql,$i,'date_news');
 						$newsDate    = date("d.m.Y  H:i",$newsDate);
 						$newAuthor   = mysql_result($sql,$i,'author');
+						$newsLike    = mysql_result($sql,$i,'LikeCount');
 				?>
 
 						<div style="width: 100%; padding: 0; margin-bottom: 10px;">
@@ -113,11 +114,14 @@
 											<span class="glyphicon glyphicon-time"></span>
 											<?php print $newsDate; ?> &nbsp;&nbsp;&nbsp;
 											<span class="glyphicon glyphicon-eye-open"></span>
-											<?php //print $val['news_count']; ?> 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<span class="glyphicon glyphicon-thumbs-up"></span>
-											<?php //print $val['news_count']; ?>  &nbsp;
-											<a href="#" id="wishlist-total"></a>
+											<?php print $newsRead; ?> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;
+											<span id="LikeCount">
+												<span><?php echo $newsLike; ?></span>
+											</span>
+											<a href="news.php?id=<?php print $newsId; ?>">
 											<button class="pull-right btn btn-primary btn-sm text-justify"> &nbsp; Batafsil &nbsp; </button>
+											</a>
 										</td>
 									</tr>
 								</table>
