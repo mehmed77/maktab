@@ -18,10 +18,9 @@
     </div>
     <br>
     <div class="col-xs-12">
-        <div class="col-xs-9">
 			  <table class="table table-bordered">
 			      <tr>
-						<th>N</th>
+						<th width="5%" style="text-align: center">N</th>
 						<th>F.I.O</th>
 				  </tr>
             <?php
@@ -39,11 +38,12 @@
                   $count++;
             ?>
 			 <tr>
-			    <td><?php print $count; ?></td>
+			    <td  style="text-align: center"><?php print $count; ?></td>
 			    <td><a href="addmehnat.php?id=<?php print $TEACH_ID; ?>"><?php print $FAM_ISM_OTA; ?></a></td>
 			 </tr>
 			   <?php } ?>
 			</table>
+    </div>
 <?php
   require("../footer.php");
 ?>
