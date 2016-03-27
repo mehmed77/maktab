@@ -60,6 +60,9 @@
 		<!-- LEFT MENU END -->
 		<!-- CENTER  MENU  -->
 		<div class="col-xs-6">
+			<div class="col-xs-12">
+				<span id="content" style="line-height: 2px;"></span>
+			</div>
 			<div class="h2 text-primary text-center" style="border-bottom: 1px dotted; margin-bottom: 10px;">
 				Saytimiz yangiliklari
 			</div>
@@ -76,6 +79,7 @@
 						$newsDate    = date("d.m.Y  H:i",$newsDate);
 						$newAuthor   = mysql_result($sql,$i,'author');
 				?>
+
 						<div style="width: 100%; padding: 0; margin-bottom: 10px;">
 							<!--    <div class="my-panel-body">-->
 							<br>
@@ -83,7 +87,7 @@
 									<tr>
 										<td colspan="2">
 											<b style="float: left; left: 0px;"><?php print $newsMavzu; ?></b>
-												<button class="btn btn-default pull-right h3">
+												<button onclick="newsLike.add(<?php print $newsId; ?>)" class="btn btn-default pull-right h3">
 													<span class="text-primary glyphicon glyphicon-thumbs-up"></span>
 												</button>
 										</td>
@@ -110,35 +114,14 @@
 											<?php print $newsDate; ?> &nbsp;&nbsp;&nbsp;
 											<span class="glyphicon glyphicon-eye-open"></span>
 											<?php //print $val['news_count']; ?> 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-											<button class="pull-right btn btn-primary btn-sm"> &nbsp; Batafsil &nbsp; </button>
+											<span class="glyphicon glyphicon-thumbs-up"></span>
+											<?php //print $val['news_count']; ?>  &nbsp;
+											<a href="#" id="wishlist-total"></a>
+											<button class="pull-right btn btn-primary btn-sm text-justify"> &nbsp; Batafsil &nbsp; </button>
 										</td>
 									</tr>
 								</table>
-							<!--        </div>-->
 						</div>
-<!--				<div class="news">-->
-<!--					<div class="pull-left" style=" width: 130px; height: 130px;">-->
-<!--						<img class="img-thumbnail" src="--><?php //print $newsImgLink; ?><!--" width="100%" height="100%">-->
-<!--					</div>-->
-<!--					<div style="margin-left: 140px; max-height: 100px;">-->
-<!--						<span style="font-family: Consolas">--><?php //print $newsDate; ?><!--</span><br>-->
-<!--						<b style="font-size: 16px;">--><?php //print $newsMavzu; ?><!--</b> <br>-->
-<!--						--><?php //print $newsShort; ?>
-<!--					</div>-->
-<!--					<div style="margin-top: 5px;" class="pull-right">-->
-<!--						<div class="news-form">-->
-<!--							<b style="font-size: 16px;">O'qilgan:</b>-->
-<!--							<b style="color: #000; margin-left: 5px; font-size: larger">--><?php //print $newsRead; ?><!--</b>-->
-<!--						</div>-->
-<!--						&nbsp;-->
-<!--							<a style="color: white" href="news.php?id=--><?php //print $newsId; ?><!--">-->
-<!--								<div class="btn btn-info btn-sm">-->
-<!--									Batafsil-->
-<!--								</div>-->
-<!--							</a>-->
-<!--					</div>-->
-<!--				</div>-->
 			<?php } ?>
 		</div>
 		<!-- CENTER  MENU END -->

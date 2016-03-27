@@ -15,7 +15,18 @@ class Count {
         mysql_query($sql);
         return 0;
     }
+    function IdexNewsLikeCount($id=false){
+        print $id;
+    }
 }
 
+if(isset($_POST['news_id']) && is_numeric($_POST['news_id'])) {
+    $news_id = $_POST['news_id'];
+//    print"<script> alert($news_id)</script>";
+    $json = array();
+    $json['success'] = sprintf('text-succes',null,null);
+    $json['total'] = sprintf(2);
+    echo json_encode($json);
+}
 ?>
 

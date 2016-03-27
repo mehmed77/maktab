@@ -139,7 +139,7 @@
 }
 
 .main-bg {
-  background: #000 url(../images/services/bg_services.png);
+  /*background: #000 url(../images/services/bg_services.png);*/
   /*background-size: cover;*/
 }
 .main-content {

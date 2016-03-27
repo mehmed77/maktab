@@ -5,14 +5,15 @@ include("constants.php");
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Qibray tumani 6-maktab</title>
-	<script src="<?php print URL;?>js/jquery.min.js" type="text/javascript"></script>
-	<script src="<?php print URL;?>js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="<?php print URL_STYLE; ?>js/myjquery.js"></script>
+	<script src="<?php print URL_STYLE; ?>js/jquery.min.js" type="text/javascript"></script>
+	<script src="<?php print URL_STYLE; ?>js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="<?php print URL;?>templatemo_image_fader.js" type="text/javascript"></script>
-    <link href="<?php print URL;?>style/css/default.css" rel="stylesheet" type="text/css" />
-    <link type="text/css" rel="stylesheet" href="<?php print URL;?>style/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="<?php print URL;?>style/css/bootstrap-theme.css">
-    <link rel="shortcut icon" href="<?php print URL;?>style/img/favicon.ico" type="image/png">
-    <link href="<?php print URL;?>style/css/font-awesome.css" rel="stylesheet">
+    <link href="<?php print URL_STYLE;?>css/default.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="<?php print URL_STYLE;?>css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="<?php print URL_STYLE;?>css/bootstrap-theme.css">
+<!--    <link rel="shortcut icon" href="--><?php //print URL_STYLE;?><!--img/favicon.ico" type="image/png">-->
+    <link href="<?php print URL_STYLE;?>css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
     <div id="wrapper">
@@ -22,7 +23,7 @@ include("constants.php");
                     <table cellpadding="2">
                         <tr>
                             <td>
-                                <img src="http://127.0.0.1/maktab/images/logo.png" alt=""/>
+                                <img src="http://localhost/maktab/images/logo.png" alt=""/>
                             </td>
                             <td>
                                 <h2 class="maktab"><b>QIBRAY TUMANI 6-SON UMUMIY O'RTA TA'LIM MAKTABI</b></h2>

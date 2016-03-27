@@ -3,7 +3,42 @@
  * Time 00:52:00
  */
 
-const url = "http://192.168.1.101/myacm/";
+const URL = "http://localhost/maktab/";
+
+
+var newsLike = {
+    'add': function(news_id) {
+        //alert(news_id);
+        $.ajax({
+            url: URL+'Count.php?news_id='+news_id,
+            type: 'post',
+            data: 'news_id=' + news_id,
+            dataType: 'json',
+            success: function(json) {
+                $('.alert').remove();
+
+                if (json['redirect']) {
+                    location = json['redirect'];
+                }
+
+                if (json['success']) {
+                    $('#content').parent().before('<div class="alert alert-success"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+                }
+                document.getElementById("wishlist-total").innerHTML = json['total'];
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+        });
+    },
+    'remove': function() {
+
+    }
+}
+
+
+
 
 function task_problem_page(str){
     task_problem_page_id = str;

@@ -5,10 +5,10 @@
     <meta name="description" content="" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>6-Maktab</title>
-    <link href="http://127.0.0.1/maktab/css/default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="http://127.0.0.1/maktab/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="http://localhost/maktab/style/css/default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="http://localhost/maktab/style/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
     <!--[if IE 6]>
-    <link href="http://127.0.0.1/maktab/default_ie6.css" rel="stylesheet" type="text/css" />
+    <!--<link href="http://localhost/maktab/default_ie6.css" rel="stylesheet" type="text/css" />-->
     <![endif]-->
 </head>
 <body>
@@ -19,7 +19,7 @@
                 <table cellpadding="2">
                     <tr>
                         <td>
-                            <img src="http://127.0.0.1/maktab/images/logo.png" alt=""/>
+                            <img src="<?php print URL; ?>images/logo.png" alt=""/>
                         </td>
                         <td>
                             <h2 class="maktab"><b>QIBRAY TUMANI 6-SON UMUMIY O'RTA TA'LIM MAKTABI</b></h2>
