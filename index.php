@@ -76,7 +76,7 @@
 						$newsShort   = substr(mysql_result($sql,$i,'short_news'),0,500)."...";
 						$newsRead    = mysql_result($sql,$i,'reading');
 						$newsDate    = mysql_result($sql,$i,'date_news');
-						$newsDate    = date("d.m.Y  H:i",$newsDate);
+						$newsDate    = date("d.m.Y",$newsDate);
 						$newAuthor   = mysql_result($sql,$i,'author');
 						$newsLike    = mysql_result($sql,$i,'LikeCount');
 				?>
@@ -103,25 +103,40 @@
 									</tr>
 									<tr>
 										<td colspan="2">
-											<span class="glyphicon glyphicon-user"></span>
-											<?php
-											if($newAuthor == "" || $newAuthor == null){
-												print "Adminsitrator";
-											}else{
-												print $newAuthor;
-											};
-											?> &nbsp;&nbsp;&nbsp;
-											<span class="glyphicon glyphicon-time"></span>
-											<?php print $newsDate; ?> &nbsp;&nbsp;&nbsp;
-											<span class="glyphicon glyphicon-eye-open"></span>
-											<?php print $newsRead; ?> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;
-											<span id="LikeCount">
-												<span><?php echo $newsLike; ?></span>
-											</span>
-											<a href="news.php?id=<?php print $newsId; ?>">
-											<button class="pull-right btn btn-primary btn-sm text-justify"> &nbsp; Batafsil &nbsp; </button>
-											</a>
+											<table width="100%" border="0" cellpadding="0" cellspacing="0">
+												<tr>
+													<td>
+														<span class="glyphicon glyphicon-user"></span>
+														<?php
+														if($newAuthor == "" || $newAuthor == null){
+															print "Administrator";
+														}else{
+															print $newAuthor;
+														};
+														?>
+													</td>
+													<td width="130">
+														<span class="glyphicon glyphicon-time"></span>
+														<?php print $newsDate; ?>
+													</td>
+													<td width="60">
+														<span class="glyphicon glyphicon-eye-open"></span>
+														<?php print $newsRead; ?>
+													</td>
+													<td width="60">
+														<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;
+														<span id="LikeCount">
+															<span><?php echo $newsLike; ?></span>
+														</span>
+													</td>
+													<td width="70">
+														<a href="news.php?id=<?php print $newsId; ?>">
+															<button class="pull-right btn btn-primary btn-sm text-justify"> &nbsp; Batafsil &nbsp; </button>
+														</a>
+													</td>
+												</tr>
+											</table>
+
 										</td>
 									</tr>
 								</table>
@@ -134,18 +149,13 @@
 		<div class="col-xs-3">
 			<div class="panel panel-primary">
 				<div class="panel-heading text-center">
-					<b style="text-transform: uppercase;">E'lon</b>
+					<b style="text-transform: uppercase;">Hikmatli So'zlar</b>
 				</div>
 				<div class="panel-body">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur ea earum error eum ex excepturi fugit harum hic illum, ipsam iste modi molestias nam perspiciatis porro recusandae totam veritatis!
-					</p>
+					<?php
+					  $left_menu->HikmatliSozlar();
+					?>
 				</div>
-			</div>
-			<div class="panel panel-body panel-primary">
-				<?php
-				  $left_menu->HikmatliSozlar();
-				?>
 			</div>
 			<div class="panel panel-primary">
 				<div class="panel-heading text-center">
@@ -239,6 +249,7 @@
 			<img src="marquee/8.jpg" class="img-thumbnail" height="100%" width="200px;">
 			<img src="marquee/10.jpg" class="img-thumbnail" height="100%" width="200px;">
 		</marquee>
+	 </div>
 <?php
 	include ('footer.php');
 ?>

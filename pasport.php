@@ -27,3 +27,6 @@ $left_menu = new Menu();
          <?php $left_menu->MaktabVaTalim(); ?>
     </div>
 </div>
+<?php
+require("footer.php");
+?>

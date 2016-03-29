@@ -82,7 +82,7 @@
         <div class="col-xs-3">
             <?php $left_menu->Oqituvchi(); ?>
         </div>
-
+</div>
 <?php
   require ("footer.php");
 ?>

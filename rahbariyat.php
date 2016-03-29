@@ -88,7 +88,7 @@
                 $left_menu->Oqituvchi();
             ?>
         </div>
-
+</div>
 <?php
   require ("footer.php");
 ?>

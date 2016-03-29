@@ -143,4 +143,7 @@ $left_menu = new Menu();
         ?>
     </div>
 </div>
+<?php
+require("footer.php");
+?>
 

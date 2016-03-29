@@ -23,7 +23,7 @@ include("constants.php");
                     <table cellpadding="2">
                         <tr>
                             <td>
-                                <img src="http://localhost/maktab/images/logo.png" alt=""/>
+                                <img src="<?php print URL;?>images/logo.png" alt=""/>
                             </td>
                             <td>
                                 <h2 class="maktab"><b>QIBRAY TUMANI 6-SON UMUMIY O'RTA TA'LIM MAKTABI</b></h2>
