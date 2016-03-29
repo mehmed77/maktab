@@ -1,15 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>6-Maktab</title>
-    <link href="http://localhost/maktab/style/css/default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="http://localhost/maktab/style/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
-    <!--[if IE 6]>
-    <!--<link href="http://localhost/maktab/default_ie6.css" rel="stylesheet" type="text/css" />-->
-    <![endif]-->
+    <link href="<?php print URL_STYLE; ?>css/default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="<?php print URL_STYLE;?>style/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
 <div id="wrapper">
