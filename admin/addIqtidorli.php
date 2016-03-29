@@ -1,4 +1,9 @@
 <?php
+include("session.php");
+if(!isset($_SESSION['loggedIn']) || isset($_SESSION['loggedIn']) && !$_SESSION['loggedIn']) {
+    header("location: login.php");
+    exit(0);
+}
   include("style.php");
 ?>
 <div id="banner" style="width: 100%; background: #428bca; font-size: 45px; padding-top: 16px; padding-left: 50px;  border-bottom: 5px double #0078D1; height: 100px;">

@@ -1,4 +1,9 @@
 <?php
+include("session.php");
+if(!isset($_SESSION['loggedIn']) || isset($_SESSION['loggedIn']) && !$_SESSION['loggedIn']) {
+    header("location: login.php");
+    exit(0);
+}
     include("connect_db.php");
     if(isset($_GET['id']) && is_numeric($_GET['id'])){
         $id = $_GET['id'];

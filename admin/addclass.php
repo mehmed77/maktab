@@ -1,4 +1,9 @@
 <?php
+include("session.php");
+if(!isset($_SESSION['loggedIn']) || isset($_SESSION['loggedIn']) && !$_SESSION['loggedIn']) {
+    header("location: login.php");
+    exit(0);
+}
     include("style.php");
     include("connect_db.php");
 ?>

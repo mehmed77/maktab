@@ -1,4 +1,9 @@
 <?php
+include("session.php");
+if(!isset($_SESSION['loggedIn']) || isset($_SESSION['loggedIn']) && !$_SESSION['loggedIn']) {
+    header("location: login.php");
+    exit(0);
+}
     include("connect_db.php");
     $id = $_GET['id'];
     for($kun = 1; $kun < 7; $kun++){

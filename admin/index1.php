@@ -1,4 +1,9 @@
 <?php
+include("session.php");
+if(!isset($_SESSION['loggedIn']) || isset($_SESSION['loggedIn']) && !$_SESSION['loggedIn']) {
+    header("location: login.php");
+    exit(0);
+}
     $link = "oqituvchi";
     require("header.php");
     require("connect_db.php");

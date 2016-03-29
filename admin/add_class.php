@@ -1,4 +1,9 @@
 <?php
+    include("session.php");
+    if(!isset($_SESSION['loggedIn']) || isset($_SESSION['loggedIn']) && !$_SESSION['loggedIn']) {
+        header("location: login.php");
+        exit(0);
+    }
     include("connect_db.php");
     $sinf = $_POST['addsinf'];
     mysql_query("INSERT INTO `sinflar`(`id`, `sinf`) VALUES (NULL,'$sinf')");
