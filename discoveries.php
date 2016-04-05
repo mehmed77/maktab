@@ -35,7 +35,7 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])){
                 <b><?php print $IXTRO_MAVZU; ?></b>
             </div>
             <div style="margin-top: 3px;">
-                   <img src="<?php print $IXTRO_LINK;?>" class="img-thumbnail pull-left">
+                   <img src="<?php print $IXTRO_LINK;?>" class="pull-left" style="padding: 15px;">
                <div style="text-align: justify;"> <?php print $IXTRO_IZOH; ?></div>
             </div>
             <div style="padding-top: 3px; text-transform: uppercase; text-align: center; font-size: large; min-height: 30px; border-top: 1px dashed black">

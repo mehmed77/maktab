@@ -333,7 +333,7 @@ class Menu
   }
   function KopOqilganYangilklar(){
       print"<div class=\"panel panel-primary\">
-				<div class=\"panel-heading text-center\">
+				<div class=\"panel-heading text-center\" style=\"line-height: 7px;\">
 					<b style=\"text-transform: uppercase;\">Ko'p o'qilgan yangiliklar</b>
 				</div>
 				<div class=\"panel-body\">
@@ -346,7 +346,7 @@ class Menu
 							$newMavzu = mysql_result($sqltext,$i,'mavzu');
 							$newRead = mysql_result($sqltext,$i,'reading');
                             if(strlen($newMavzu) > 45){
-                                $newMavzu = substr($newMavzu, 0, 45)."...";
+                                $newMavzu = substr($newMavzu, 0, 46)."...";
                             }
                     print"<li>
                         <a href=\"news.php?id=$newId\">$newMavzu</a>
@@ -369,8 +369,8 @@ class Menu
                     for($i = 0; $i < $numtext; $i++){
                         $newId = mysql_result($sqltext,$i,'id');
                         $newMavzu = mysql_result($sqltext,$i,'mavzu');
-                        if(strlen($newMavzu) > 45){
-                            $newMavzu = substr($newMavzu, 0, 45)."...";
+                        if(strlen($newMavzu) > 46){
+                            $newMavzu = substr($newMavzu,0,46)."...";
                         }
                         $newRead = mysql_result($sqltext,$i,'reading');
                         print"<li>

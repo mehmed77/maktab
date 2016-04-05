@@ -23,7 +23,7 @@
 			$left_menu->KopOqilganYangilklar();
 			?>
 			<div class="panel panel-primary">
-				<div class="panel-heading text-center">
+				<div class="panel-heading text-center" style="line-height: 7px;">
 					<b style="text-transform: uppercase;">maktabimiz formasi</b>
 				</div>
 				<div class="panel-body" style="height: 370px;">
@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div class="panel panel-primary">
-				<div class="panel-heading text-center">
+				<div class="panel-heading text-center" style="line-height: 7px;">
 					<b style="text-transform: uppercase;">qo'shimcha ma'lumot</b>
 				</div>
 				<div style="font-family: Arial" class="panel-body">
@@ -53,6 +53,25 @@
 						<li>
 							<p><b>Jami sinf xonalari soni: 19</b></p>
 						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="panel panel-primary">
+				<div class="panel-heading text-center" style="line-height: 7px;">
+					<b style="text-transform: uppercase;">Online so'rovnoma</b>
+				</div>
+				<div class="panel-body">
+					<ul class="style5">
+						<li style="text-transform: uppercase; color:red; font-family: Consolas; text-align: center;">
+							<b>Qaysi fan sizga yoqadi?</b>
+						</li>
+						<?php
+						if(isset($_GET['s']) && $_GET['s'] == 1){
+							$left_menu->SorovnomaPrint();
+						}else{
+							$left_menu->Sorovnoma();
+						}
+						?>
 					</ul>
 				</div>
 			</div>
@@ -87,10 +106,16 @@
 								<table id="my-table" class="table table-bordered" width="100%">
 									<tr>
 										<td colspan="2">
-											<b style="float: left; left: 0px;"><?php print $newsMavzu; ?></b>
-												<button onclick="newsLike.add(<?php print $newsId; ?>)" class="btn btn-default pull-right h3">
-													<span class="text-primary glyphicon glyphicon-thumbs-up"></span>
-												</button>
+											<table width="100%">
+												<tr>
+													<td width="90%"><b style="float: left; left: 0px;"><?php print $newsMavzu; ?></b></td>
+													<td>
+														<button onclick="newsLike.add(<?php print $newsId; ?>)" class="btn btn-default pull-right h3">
+															<span class="text-primary glyphicon glyphicon-thumbs-up"></span>
+														</button>
+													</td>
+												</tr>
+											</table>
 										</td>
 									</tr>
 									<tr>
@@ -148,7 +173,7 @@
 		<!-- RIGHT  MENU -->
 		<div class="col-xs-3">
 			<div class="panel panel-primary">
-				<div class="panel-heading text-center">
+				<div class="panel-heading text-center" style="line-height: 7px;">
 					<b style="text-transform: uppercase;">Hikmatli So'zlar</b>
 				</div>
 				<div class="panel-body">
@@ -157,8 +182,11 @@
 					?>
 				</div>
 			</div>
+			<div style="width: 100%; text-align: center; padding-bottom: 10px;">
+				<img src="images/2016-yil.jpg">
+			</div>
 			<div class="panel panel-primary">
-				<div class="panel-heading text-center">
+				<div class="panel-heading text-center" style="line-height: 7px;">
 					<b style="text-transform: uppercase;">Foydali manbalar</b>
 				</div>
 				<div class="panel-body">
@@ -215,22 +243,13 @@
 				</div>
 			</div>
 			<div class="panel panel-primary">
-				<div class="panel-heading text-center">
-					<b style="text-transform: uppercase;">Online so'rovnoma</b>
+				<div class="panel-heading" style="line-height: 7px; text-align: center">
+					<b style="text-transform: uppercase;">Dunyo Mo'jizalari</b>
 				</div>
 				<div class="panel-body">
-					<ul class="style5">
-						<li style="text-transform: uppercase; color:red; font-family: Consolas; text-align: center;">
-							<b>Qaysi fan sizga yoqadi?</b>
-						</li>
-						<?php
-							if(isset($_GET['s']) && $_GET['s'] == 1){
-								$left_menu->SorovnomaPrint();
-							}else{
-								$left_menu->Sorovnoma();
-							}
-						?>
-					</ul>
+					<a href="mojiza.php">
+						<img src="<?php print URL_IMG;?>mojiza.gif" width="100%">
+					</a>
 				</div>
 			</div>
 		<!-- RIGHT  MENU END -->

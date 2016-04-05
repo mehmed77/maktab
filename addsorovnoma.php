@@ -1,3 +1,4 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <?php
 // add so'rovnoma
 include("connect_db.php");

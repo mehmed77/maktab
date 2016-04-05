@@ -1,3 +1,4 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <?php
 include("session.php");
 if(!isset($_SESSION['loggedIn']) || isset($_SESSION['loggedIn']) && !$_SESSION['loggedIn']) {
@@ -24,6 +25,7 @@ if(!isset($_SESSION['loggedIn']) || isset($_SESSION['loggedIn']) && !$_SESSION['
                                         VALUES
                                         (NULL, '$mavzu', '$upload_name', '$shortnews', '$longnews', '$time','$author')";
    mysql_query($sql);
+//  print $sql;
    header("location: ../index.php");
    exit(0);
 ?>

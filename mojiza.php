@@ -1,31 +1,38 @@
 <?php
-$link = "oquvchi";
-include "connect_db.php";
-include("header.php");
-include("Menu.php");
+$link="home";
+include "header.php";
+require "connect_db.php";
+require "Menu.php";
 $left_menu = new Menu();
 ?>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style>
+    #table-mojiza{
+        background: rgba(244, 255, 245, 0.12);
+        font-size: 14px;
+        box-shadow: inset 0px 0px 1px 5px #f8f9ff, inset 0px 0px 0px 0px #ffffff, 0px 0px 2px 2px #f2f8ff;
+        border-radius: 0px 0px 5px 5px;
+    }
+</style>
 <div class="menu-header">
     <span class="text-danger">||</span>
-    <span style="text-transform: uppercase; font-family: Consolas;">Ixtiro va kashfiyotlar</span>
+    <span style="text-transform: uppercase; font-family: Consolas;">QADIMGI DUNYONING YETTI MO'JIZASI</span>
 </div>
 <br>
 <div class="col-xs-12">
     <div class="col-xs-9">
         <?php
-        $sql = mysql_query("SELECT * FROM ixtiro ORDER BY id");
+        $sql = mysql_query("SELECT * FROM miracle ORDER BY id");
         $rows = mysql_num_rows($sql);
         for($i = 0; $i < $rows; $i++){
-            $kashId      = mysql_result($sql,$i,'id');
-            $kashMavzu   = mysql_result($sql,$i,'mavzu');
-            $kashImgLink = mysql_result($sql,$i,'imglink');
-            $kashShort   = mysql_result($sql,$i,'short');
-            $kashRead    = mysql_result($sql,$i,'tahrir');
-            $kashLike    = mysql_result($sql,$i,'LikeCount');
-            $kashAuthor   = mysql_result($sql,$i,'author');
-            $kashDate    = mysql_result($sql,$i,'date');
-            $kashDate    = date("d.m.Y",$kashDate);
+            $miraId      = mysql_result($sql,$i,'id');
+            $miraMavzu   = mysql_result($sql,$i,'mavzu');
+            $miraImgLink = mysql_result($sql,$i,'img_link');
+            $miraShort   = mysql_result($sql,$i,'short_miracle');
+            $miraRead    = mysql_result($sql,$i,'reading');
+            $miraLike    = mysql_result($sql,$i,'LikeCount');
+            $miraAuthor   = mysql_result($sql,$i,'author');
+            $miraDate    = mysql_result($sql,$i,'date');
+            $miraDate    = date("d.m.Y",$miraDate);
             ?>
 
             <div style="width: 100%; padding: 0; margin-bottom: 10px;">
@@ -35,9 +42,9 @@ $left_menu = new Menu();
                         <td colspan="2">
                             <table width="100%">
                                 <tr>
-                                    <td width="90%"><b style="float: left; left: 0px;"><?php print $kashMavzu; ?></b></td>
+                                    <td width="90%"><b style="float: left; left: 0px;"><?php print $miraMavzu; ?></b></td>
                                     <td>
-                                        <button onclick="newsLike.add(<?php print $kashId; ?>)" class="btn btn-default pull-right h3">
+                                        <button onclick="newsLike.add(<?php print $miraId; ?>)" class="btn btn-default pull-right h3">
                                             <span class="text-primary glyphicon glyphicon-thumbs-up"></span>
                                         </button>
                                     </td>
@@ -47,10 +54,10 @@ $left_menu = new Menu();
                     </tr>
                     <tr>
                         <td width="155" height="155">
-                            <img width="100%" height="100%" src="<?php print URL.''.$kashImgLink; ?>">
+                            <img width="100%" height="100%" src="<?php print URL_IMG.'miracle/'.$miraImgLink; ?>">
                         </td>
                         <td style="text-align: justify;">
-                            <?php print $kashShort; ?>
+                            <?php print $miraShort; ?>
                         </td>
                     </tr>
                     <tr>
@@ -60,29 +67,29 @@ $left_menu = new Menu();
                                     <td>
                                         <span class="glyphicon glyphicon-user"></span>
                                         <?php
-                                        if($kashAuthor == "" || $kashAuthor == null){
+                                        if($miraAuthor == "" || $miraAuthor == null){
                                             print "Administrator";
                                         }else{
-                                            print $kashAuthor;
+                                            print $miraAuthor;
                                         };
                                         ?>
                                     </td>
                                     <td width="130">
                                         <span class="glyphicon glyphicon-time"></span>
-                                        <?php print $kashDate; ?>
+                                        <?php print $miraDate; ?>
                                     </td>
                                     <td width="60">
                                         <span class="glyphicon glyphicon-eye-open"></span>
-                                        <?php print $kashRead; ?>
+                                        <?php print $miraRead; ?>
                                     </td>
                                     <td width="70">
                                         <span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;
 														<span id="LikeCount">
-															<span><?php echo $kashLike; ?></span>
+															<span><?php echo $miraLike; ?></span>
 														</span>
                                     </td>
                                     <td width="70">
-                                        <a href="discoveries.php?id=<?php print $kashId; ?>">
+                                        <a href="mojiza.php?id=<?php print $miraId; ?>">
                                             <button class="pull-right btn btn-primary btn-sm text-justify"> &nbsp; Batafsil &nbsp; </button>
                                         </a>
                                     </td>
@@ -96,11 +103,15 @@ $left_menu = new Menu();
         <?php } ?>
     </div>
     <div class="col-xs-3">
-        <?php
-          $left_menu->Oquvchi();
-        ?>
+        <div style="width: 100%; padding: 0; margin-top: 10px;">
+        <a href="http://qibray6m.zn.uz/files/2016/04/primer_tz.doc">
+            <button class="btn btn-primary">
+               Docement
+            </button>
+        </a>
+            </div>
     </div>
 </div>
 <?php
-require("footer.php");
+include("footer.php");
 ?>

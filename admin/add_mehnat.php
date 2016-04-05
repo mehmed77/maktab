@@ -5,7 +5,6 @@ if(!isset($_SESSION['loggedIn']) || isset($_SESSION['loggedIn']) && !$_SESSION['
     exit(0);
 }
 ?>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <?php
    include("connect_db.php");
     $id  = $_GET['id'];
