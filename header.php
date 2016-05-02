@@ -39,7 +39,7 @@
                     ><a href="index.php" accesskey="1" title="">Bosh Sahifa</a>
                 </li>
                 <li class="<?php echo $link=='maktab' ? 'current_page_item' : ''  ?>">
-                    <a href="maktab.php" accesskey="2" title="">Maktab va Ta'lim</a>
+                    <a href="#" accesskey="2" title="">Maktab va Ta'lim</a>
                     <ul>
                         <li><a href="pasport.php">Maktab passporti</a></li>
                         <li><a href="#">Maktab tarixi</a></li>
@@ -56,11 +56,11 @@
                         <li><a href="kashfiyotlar.php">Ixtiro va kashfiyotlar</a> </li>
                     </ul>
                 </li>
-                <li  class="<?php echo $link=='oqituvchi' ? 'current_page_item' : ''  ?>"><a href="#" accesskey="4" title="">O'qtuvchilarga</a>
+                <li  class="<?php echo $link=='oqituvchi' ? 'current_page_item' : ''  ?>"><a href="#" accesskey="4" title="">O'qituvchilarga</a>
                     <ul>
                         <li><a href="teachers.php">Ustozlar</a> </li>
                         <li><a href="rahbariyat.php">Maktab rahbariyati</a> </li>
-                        <li><a href="#">Tadbirlar senariysi</a> </li>
+                        <li><a href="developments.php">Dars Ishlanmalar</a> </li>
                         <li><a href="creative.php">Ijodkor o'qituvchilar</a> </li>
                         <li><a href="vasiylik.php">Vasiylik kengashi</a> </li>
                     </ul>

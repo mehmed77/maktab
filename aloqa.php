@@ -1,6 +1,88 @@
-https://www.google.com/maps/dir/41.3671231,69.4112145/Yuzrabot+ko'chasi,+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD/@41.3665173,69.4113085,18.53z/data=!4m8!4m7!1m0!1m5!1m1!1s0x38aef6cb47831677:0x63d54d671cc86541!2m2!1d69.4114932!2d41.3692288?hl=ru-RU
+<?php
+if(isset($_GET['res'])){
+    if($_GET['res'] == "ok"){
+        header( "refresh:4;url=aloqa.php" );
+    }else{
+        header( "refresh:4;url=aloqa.php" );
+    }
+}
 
-
-
-<div>
-    <iframe src="https://www.google.com/maps/dir/41.3671231,69.4112145/Yuzrabot+ko'chasi,+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD/@41.3665173,69.4113085,18.53z/data=!4m8!4m7!1m0!1m5!1m1!1s0x38aef6cb47831677:0x63d54d671cc86541!2m2!1d69.4114932!2d41.3692288?hl=ru-RU" width="350" height="350" frameborder="0" style="border:0;margin-left:20px;"></iframe></div>
+$link = "aloqa";
+require ("header.php");
+require ("connect_db.php");
+require ("Menu.php");
+$left_menu = new Menu();
+?>
+<div class="menu-header">
+    <span class="text-danger">||</span>
+    <span style="text-transform: uppercase; font-family: Consolas;">Biz bilan aloqa</span>
+</div>
+<br>
+<div class="col-xs-12">
+    <div class="col-xs-6">
+        <table class="table table-bordered table-responsive table-striped">
+            <tr>
+                <th colspan="2" style="text-align: center; font-family: Consolas; text-transform: uppercase; font-size: larger">BIZ BILAN BOG'LANISH</th>
+            </tr>
+            <tr>
+                <th style="width: 15px;">Email:</th><td> mr.habibullayev@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Telefon:</th><td> 264 98 70</td>
+            </tr>
+            <tr>
+                <th>Manzil:</th><td> Toshkent viloyati Qibray tumani</td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-xs-6">
+        <?php
+        if(isset($_GET['res'])){
+            if($_GET['res'] == "ok"){
+                print'<div class="alert alert-success"><i class="fa fa-check-circle"></i> Xabar muovfaqiyatli jo`natildi. <button type="button" class="close" data-dismiss="alert">&times;</button></div>';
+            }else{
+                print'<div class="alert alert-danger"><i class="fa fa-check-circle"></i> Xatolik yuz berdi iltimos qayta urinib ko`ring. <button type="button" class="close" data-dismiss="alert">&times;</button></div>';
+            }
+        }
+        ?>
+        <form action="aloqa_add.php" method="POST">
+            <table style="width: 100%" class="table table-bordered table-responsive table-striped">
+                <tr>
+                    <th colspan="2" style="text-align: center; font-family: Consolas; text-transform: uppercase; font-size: larger">Qayta aloqa uchun</th>
+                </tr>
+                <tr>
+                    <td width="70px">FISh <b style="color: red">*</b></td>
+                    <td>
+                        <input id="login" name="fish" type="text" class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email <b style="color: red">*</b></td>
+                    <td>
+                        <input name="email" type="text" class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mavzu  <b style="color: red">*</b></td>
+                    <td>
+                        <input name="mavzu" type="text" class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Xabar  <b style="color: red">*</b></td>
+                    <td>
+                        <textarea rows="5" name="xabar" class="form-control"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <button class="btn btn-primary center-block" type="submit">Jo'natish</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<?php
+include("footer.php");
+?>

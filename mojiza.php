@@ -1,8 +1,19 @@
 <?php
 $link="home";
-include "header.php";
 require "connect_db.php";
+if(isset($_GET['id']) && is_numeric($_GET['id'])){
+    $id = $_GET['id'];
+    $sql = mysql_query("select * from `miracle` where id = $id");
+    if($rows = mysql_fetch_assoc($sql)){
+        include("mojiza_one.php");
+        exit(-1);
+    }else{
+        header("location: mojiza.php");
+    }
+}
+include "header.php";
 require "Menu.php";
+require"Count.php";
 $left_menu = new Menu();
 ?>
 <style>
@@ -13,6 +24,11 @@ $left_menu = new Menu();
         border-radius: 0px 0px 5px 5px;
     }
 </style>
+<script>
+    function addMojizaLike(id){
+        location.href = 'Count.php?mojiza_id='+id;
+    }
+</script>
 <div class="menu-header">
     <span class="text-danger">||</span>
     <span style="text-transform: uppercase; font-family: Consolas;">QADIMGI DUNYONING YETTI MO'JIZASI</span>
@@ -21,7 +37,7 @@ $left_menu = new Menu();
 <div class="col-xs-12">
     <div class="col-xs-9">
         <?php
-        $sql = mysql_query("SELECT * FROM miracle ORDER BY id");
+        $sql = mysql_query("SELECT * FROM mojiza ORDER BY id");
         $rows = mysql_num_rows($sql);
         for($i = 0; $i < $rows; $i++){
             $miraId      = mysql_result($sql,$i,'id');
@@ -44,7 +60,7 @@ $left_menu = new Menu();
                                 <tr>
                                     <td width="90%"><b style="float: left; left: 0px;"><?php print $miraMavzu; ?></b></td>
                                     <td>
-                                        <button onclick="newsLike.add(<?php print $miraId; ?>)" class="btn btn-default pull-right h3">
+                                        <button onclick="addMojizaLike(<?php print $miraId; ?>)" class="btn btn-default pull-right h3">
                                             <span class="text-primary glyphicon glyphicon-thumbs-up"></span>
                                         </button>
                                     </td>
@@ -54,7 +70,7 @@ $left_menu = new Menu();
                     </tr>
                     <tr>
                         <td width="155" height="155">
-                            <img width="100%" height="100%" src="<?php print URL_IMG.'miracle/'.$miraImgLink; ?>">
+                            <img width="100%" height="100%" src="<?php print $miraImgLink; ?>">
                         </td>
                         <td style="text-align: justify;">
                             <?php print $miraShort; ?>
@@ -102,14 +118,89 @@ $left_menu = new Menu();
             </div>
         <?php } ?>
     </div>
+    <!-- RIGHT  MENU -->
     <div class="col-xs-3">
-        <div style="width: 100%; padding: 0; margin-top: 10px;">
-        <a href="http://qibray6m.zn.uz/files/2016/04/primer_tz.doc">
-            <button class="btn btn-primary">
-               Docement
-            </button>
-        </a>
+        <div class="panel panel-primary">
+            <div class="panel-heading text-center" style="line-height: 7px;">
+                <b style="text-transform: uppercase;">Hikmatli So'zlar</b>
             </div>
+            <div class="panel-body">
+                <?php
+                $left_menu->HikmatliSozlar();
+                ?>
+            </div>
+        </div>
+        <div style="width: 100%; text-align: center; padding-bottom: 10px;">
+            <img src="images/2016-yil.jpg">
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading text-center" style="line-height: 7px;">
+                <b style="text-transform: uppercase;">Foydali manbalar</b>
+            </div>
+            <div class="panel-body">
+                <ul class="style2">
+                    <li class="first">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="images/matbuot.gif">
+                                </td>
+                                <td style="padding-left: 3px; font-size: small;">
+                                    <a href="http://www.press-service.uz">O'ZBEKISTON RESPUBLIKASI PREZIDENT MATBUOT XIZMATI</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="images/gerb.gif">
+                                </td>
+                                <td style="padding-left: 3px; font-size: small;">
+                                    <a href="http://www.gov.uz">O'ZBEKISTON RESPUBLIKASI HUKUMAT PORTOLI</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="images/senat.jpg">
+                                </td>
+                                <td style="padding-left: 3px; font-size: small;">
+                                    <a href="http://www.parliament.gov.uz">O'ZBEKISTON RESPUBLIKASI OLIY MAJLISI</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="images/gerb.gif">
+                                </td>
+                                <td style="padding-left: 3px; font-size: small;">
+                                    <a href="http://www.uzedu.uz">O'ZBEKISTON RESPUBLIKASI XALQ TA'LIMI VAZIRLIGI</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading" style="line-height: 7px; text-align: center">
+                <b style="text-transform: uppercase;">Dunyo Mo'jizalari</b>
+            </div>
+            <div class="panel-body">
+                <a href="mojiza.php">
+                    <img src="<?php print URL_IMG;?>mojiza.gif" width="100%">
+                </a>
+            </div>
+        </div>
+        <!-- RIGHT  MENU END -->
     </div>
 </div>
 <?php

@@ -78,4 +78,5 @@ $nums_1 = mysql_num_rows($sql_1);
     <div class="col-xs-3">
         <?php $left_menu->Oquvchi(); ?>
     </div>
+    </div>
 <?php include("footer.php"); ?>

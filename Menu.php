@@ -90,7 +90,7 @@ class Menu
                             <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"rahbariyat.php\">&nbsp; Maktab rahbariyati</a></b>
                         </li>
                         <li>
-                            <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"#\">&nbsp; Tadbirlar senariysi</a></b>
+                            <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"developments.php\">&nbsp; Dars Ishlanmalar</a></b>
                         </li>
                         <li>
                             <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"creative.php\">&nbsp; Ijodkor o'qituvchilar</a></b>
@@ -181,9 +181,16 @@ class Menu
               </div>";
    }
    function HikmatliSozlar(){
-       print"<div style='text-align: center'>
-                Фарзандингизни тарбияламанг, ўзингизни тарбияланг - Фарзандингиз барибир ўзингизга ўхшаш бўлади
-            </div>";
+       print"<div class=\"panel panel-primary\">
+				<div class=\"panel-heading text-center\" style=\"line-height: 7px;\">
+					<b style=\"text-transform: uppercase;\">Hikmatli So'zlar</b>
+				</div>
+				<div class=\"panel-body\">
+					<div style='text-align: center'>
+                        Фарзандингизни тарбияламанг, ўзингизни тарбияланг - Фарзандингиз барибир ўзингизга ўхшаш бўлади
+                    </div>
+				</div>
+			</div>";
    }
 
    function DonolarKitobi(){
@@ -382,4 +389,113 @@ class Menu
                 </div>
             </div>";
  }
+
+ function CurrentYearName(){
+     print'<div style="width: 100%; text-align: center; padding-bottom: 10px;">
+				<img src="images/2016-yil.jpg">
+		   </div>';
+ }
+
+ function FoydaliManbalar(){
+     print'<div class="panel panel-primary">
+				<div class="panel-heading text-center" style="line-height: 7px;">
+					<b style="text-transform: uppercase;">Foydali manbalar</b>
+				</div>
+				<div class="panel-body">
+					<ul class="style2">
+						<li class="first">
+							<table>
+								<tr>
+									<td>
+										<img src="images/matbuot.gif">
+									</td>
+									<td style="padding-left: 3px; font-size: small;">
+										<a href="http://www.press-service.uz">O\'ZBEKISTON RESPUBLIKASI PREZIDENT MATBUOT XIZMATI</a>
+									</td>
+								</tr>
+							</table>
+						</li>
+						<li>
+							<table>
+								<tr>
+									<td>
+										<img src="images/gerb.gif">
+									</td>
+									<td style="padding-left: 3px; font-size: small;">
+										<a href="http://www.gov.uz">O\'ZBEKISTON RESPUBLIKASI HUKUMAT PORTOLI</a>
+									</td>
+								</tr>
+							</table>
+						</li>
+						<li>
+							<table>
+								<tr>
+									<td>
+										<img src="images/senat.jpg">
+									</td>
+									<td style="padding-left: 3px; font-size: small;">
+										<a href="http://www.parliament.gov.uz">O\'ZBEKISTON RESPUBLIKASI OLIY MAJLISI</a>
+									</td>
+								</tr>
+							</table>
+						</li>
+						<li>
+							<table>
+								<tr>
+									<td>
+										<img src="images/gerb.gif">
+									</td>
+									<td style="padding-left: 3px; font-size: small;">
+										<a href="http://www.uzedu.uz">O\'ZBEKISTON RESPUBLIKASI XALQ TA\'LIMI VAZIRLIGI</a>
+									</td>
+								</tr>
+							</table>
+						</li>
+					</ul>
+				</div>
+			</div>';
+ }
+
+    function Mojizalar(){
+        print'<div class="panel panel-primary">
+				<div class="panel-heading" style="line-height: 7px; text-align: center">
+					<b style="text-transform: uppercase;">Dunyo Mo`jizalari</b>
+				</div>
+				<div class="panel-body">
+					<a href="mojiza.php">
+						<img src="'.URL_IMG.'mojiza.gif" width="100%">
+					</a>
+				</div>
+			</div>';
+    }
+
+    function AsosoiyLeftMenu(){
+        print" <div class=\"panel panel-primary\">
+                 <div class=\"panel-heading\" style=\"line-height: 7px; text-align: center\">
+					<b style=\"text-transform: uppercase;\">Interaktiv hizmatlar</b>
+				</div>
+                  <div class=\"panel-body\">
+                      <ul class=\"style1\" style=\"font-family: Menlo\">
+                          <li>
+                              <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"books.php\">&nbsp; Darsliklar</a></b>
+                          </li>
+                          <li>
+                              <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"#\">&nbsp; Maqolalar</a></b>
+                          </li>
+                          <li>
+                              <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"#\">&nbsp; Hikmatli so'zlar</a></b>
+                          </li>
+                          <li>
+                              <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"videos.php\">&nbsp; Video darslar</a></b>
+                          </li>
+                          <li>
+                              <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"#\">&nbsp; Online test</a></b>
+                          </li>
+                          <li>
+                              <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"#\">&nbsp; Bitiruvchilar</a></b>
+                          </li>
+                      </ul>
+                  </div>
+              </div>";
+    }
 }

@@ -4,6 +4,7 @@
 	require "connect_db.php";
 	require "Menu.php";
 	$left_menu = new Menu();
+    date_default_timezone_set("Asia/Tashkent");
 ?>
 <style>
 	#my-table{
@@ -19,15 +20,17 @@
 	<div class="col-xs-12">
 		<!-- LEFT MENU -->
 		<div class="col-xs-3">
+
 			<?php
+
 			$left_menu->KopOqilganYangilklar();
 			?>
 			<div class="panel panel-primary">
 				<div class="panel-heading text-center" style="line-height: 7px;">
-					<b style="text-transform: uppercase;">maktabimiz formasi</b>
+					<b style="text-transform: uppercase;">maktabimiz formasi </b>
 				</div>
 				<div class="panel-body" style="height: 370px;">
-					<script type="text/javascript"> //230 340
+					<script type="text/javascript">
 						new fadeshow(fadeimages, 240, 350, 1, 2500, 1, "R")
 					</script>
 				</div>
@@ -172,86 +175,13 @@
 
 		<!-- RIGHT  MENU -->
 		<div class="col-xs-3">
-			<div class="panel panel-primary">
-				<div class="panel-heading text-center" style="line-height: 7px;">
-					<b style="text-transform: uppercase;">Hikmatli So'zlar</b>
-				</div>
-				<div class="panel-body">
-					<?php
-					  $left_menu->HikmatliSozlar();
-					?>
-				</div>
-			</div>
-			<div style="width: 100%; text-align: center; padding-bottom: 10px;">
-				<img src="images/2016-yil.jpg">
-			</div>
-			<div class="panel panel-primary">
-				<div class="panel-heading text-center" style="line-height: 7px;">
-					<b style="text-transform: uppercase;">Foydali manbalar</b>
-				</div>
-				<div class="panel-body">
-					<ul class="style2">
-						<li class="first">
-							<table>
-								<tr>
-									<td>
-										<img src="images/matbuot.gif">
-									</td>
-									<td style="padding-left: 3px; font-size: small;">
-										<a href="http://www.press-service.uz">O'ZBEKISTON RESPUBLIKASI PREZIDENT MATBUOT XIZMATI</a>
-									</td>
-								</tr>
-							</table>
-						</li>
-						<li>
-							<table>
-								<tr>
-									<td>
-										<img src="images/gerb.gif">
-									</td>
-									<td style="padding-left: 3px; font-size: small;">
-										<a href="http://www.gov.uz">O'ZBEKISTON RESPUBLIKASI HUKUMAT PORTOLI</a>
-									</td>
-								</tr>
-							</table>
-						</li>
-						<li>
-							<table>
-								<tr>
-									<td>
-										<img src="images/senat.jpg">
-									</td>
-									<td style="padding-left: 3px; font-size: small;">
-										<a href="http://www.parliament.gov.uz">O'ZBEKISTON RESPUBLIKASI OLIY MAJLISI</a>
-									</td>
-								</tr>
-							</table>
-						</li>
-						<li>
-							<table>
-								<tr>
-									<td>
-										<img src="images/gerb.gif">
-									</td>
-									<td style="padding-left: 3px; font-size: small;">
-										<a href="http://www.uzedu.uz">O'ZBEKISTON RESPUBLIKASI XALQ TA'LIMI VAZIRLIGI</a>
-									</td>
-								</tr>
-							</table>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="panel panel-primary">
-				<div class="panel-heading" style="line-height: 7px; text-align: center">
-					<b style="text-transform: uppercase;">Dunyo Mo'jizalari</b>
-				</div>
-				<div class="panel-body">
-					<a href="mojiza.php">
-						<img src="<?php print URL_IMG;?>mojiza.gif" width="100%">
-					</a>
-				</div>
-			</div>
+			<?php
+				$left_menu->HikmatliSozlar();
+				$left_menu->AsosoiyLeftMenu();
+				$left_menu->CurrentYearName();
+				$left_menu->FoydaliManbalar();
+				$left_menu->Mojizalar();
+			?>
 		<!-- RIGHT  MENU END -->
 		</div>
   </div>

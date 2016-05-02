@@ -35,6 +35,8 @@
                        break;
                    case 2: include("rahbariyat/nigora.php");
                        break;
+                   case 3: include("rahbariyat/nodira.php");
+                       break;
                }
             ?>
         </div>

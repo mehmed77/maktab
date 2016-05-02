@@ -53,34 +53,38 @@
                 </div>
             <div class="panel panel-body panel-primary">
                 <div style="padding-top: 3px; text-transform: uppercase; text-align: center; font-size: large; height: 30px; border-bottom: 1px dashed black">
-                    <b>МАГДАЛИЕВА НИГОРА ХУСАНОВНА</b>
+                    <b>ЖУМАБАЕВА НОДИРА ҚУЧҚАРХОДЖАЕВНА</b>
                 </div>
                 <div style="width: 25%; height: 250px; float: left">
                     <img src="rasm/nodira.jpg" class="img-thumbnail"  style="margin: 1px;" width="100%" height="100%">
                 </div>
                 <div style="width: 72%; float: right;text-align: justify; font-size: larger;">
                     <br>
-                    <br>
-                    <br>
+                    &nbsp;&nbsp; Жумабаева Нодира Қучқарходжаевна 1974 йил 12 апрел Тошкент вилояти Қибрай тумани Маданият қишлоғида зиёлилар оиласида туғилган.<br/>
+                    1993-2001 йй – Қибрай тумани 40- мактабда кимё- биология ўқитувчиси <br/>
+                    2001 -2002 йй- Қибрай тумани 6- умумтаълим мактабида кимё- биология ўқитувчиси<br/>
+                    2002 й – ҳ.в.- Қибрай тумани 6- умумтаълим мактабида ўқув тарбия ишлар бўйича директор ўринбосари<br/>
+                    <br/>
+                    <br/>
                     <a href="leadership.php?id=3"><div class="btn btn-success pull-right">Batafsil</div></a>
                 </div>
             </div>
-            <div class="panel panel-body panel-primary">
-                <div style="padding-top: 3px; text-transform: uppercase; text-align: center; font-size: large; height: 30px; border-bottom: 1px dashed black">
-                    <b>Эрметова Венера Уринбаевна</b>
-                </div>
-                <div style="width: 25%; height: 250px; float: left">
-                    <img src="rasm/psixolog.jpg" class="img-thumbnail"  style="margin: 1px;" width="100%" height="100%">
-                </div>
-                <div style="width: 72%; float: right;text-align: justify; font-size: larger;">
-                    <br>
-                    &nbsp;&nbsp; Эрметова Венера Уринбаевна, 10-январь 1964-йилда Тошкент вилояти Кибрай туманида туғилган.<br>
-
-                    <br>
-                    <br>
-                    <a href="leadership.php?id=3"><div class="btn btn-success pull-right">Batafsil</div></a>
-                </div>
-            </div>
+<!--            <div class="panel panel-body panel-primary">-->
+<!--                <div style="padding-top: 3px; text-transform: uppercase; text-align: center; font-size: large; height: 30px; border-bottom: 1px dashed black">-->
+<!--                    <b>Эрметова Венера Уринбаевна</b>-->
+<!--                </div>-->
+<!--                <div style="width: 25%; height: 250px; float: left">-->
+<!--                    <img src="rasm/psixolog.jpg" class="img-thumbnail"  style="margin: 1px;" width="100%" height="100%">-->
+<!--                </div>-->
+<!--                <div style="width: 72%; float: right;text-align: justify; font-size: larger;">-->
+<!--                    <br>-->
+<!--                    &nbsp;&nbsp; Эрметова Венера Уринбаевна, 10-январь 1964-йилда Тошкент вилояти Кибрай туманида туғилган.<br>-->
+<!---->
+<!--                    <br>-->
+<!--                    <br>-->
+<!--                    <a href="leadership.php?id=3"><div class="btn btn-success pull-right">Batafsil</div></a>-->
+<!--                </div>-->
+<!--            </div>-->
             
         </div>
         <div class="col-xs-3">

@@ -80,7 +80,8 @@
                 </ul></div>
         </div>
         <div class="col-xs-3">
-            <?php $left_menu->Oqituvchi(); ?>
+            <?php $left_menu->Oqituvchi(); $left_menu->AsosoiyLeftMenu(); ?>
+
         </div>
 </div>
 <?php
