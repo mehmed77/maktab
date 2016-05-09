@@ -498,4 +498,27 @@ class Menu
                   </div>
               </div>";
     }
+    function QoshimchaMalumotlar(){
+        print" <div class=\"panel panel-primary\">
+                 <div class=\"panel-heading\" style=\"line-height: 7px; text-align: center\">
+					<b style=\"text-transform: uppercase;\">Qo'shimcha ma'lumotlar</b>
+				</div>
+                  <div class=\"panel-body\">
+                      <ul class=\"style1\" style=\"font-family: Menlo\">
+                          <li>
+                              <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"malumot.php\">&nbsp;Qo'shimcha Ma'lumot</a></b>
+                          </li>
+                          <li>
+                              <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"symbols.php\">&nbsp; Davlat Ramzlari</a></b>
+                          </li>
+                          <li>
+                              <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"state_awards.php\">&nbsp; Davlat Mukofotlari</a></b>
+                          </li>
+                          <li>
+                              <span class=\"nuqta pull-left\"></span>&nbsp;&nbsp;<b> <a href=\"#\">&nbsp; Milliy Bayrmlar</a></b>
+                          </li>
+                      </ul>
+                  </div>
+              </div>";
+    }
 }

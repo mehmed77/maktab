@@ -35,30 +35,9 @@
 					</script>
 				</div>
 			</div>
-			<div class="panel panel-primary">
-				<div class="panel-heading text-center" style="line-height: 7px;">
-					<b style="text-transform: uppercase;">qo'shimcha ma'lumot</b>
-				</div>
-				<div style="font-family: Arial" class="panel-body">
-					<ul class="style2">
-						<li class="first" style="text-align: justify">
-							<p><b>Maktabda jami: 447 o'quvchi</b></p>
-							<p>O'g'il bolalar soni: 218</p>
-							Qiz bolalar soni: 229
-						</li>
-						<li>
-							<p><b>Maktabda jami: 38 o'qituvchi</b></p>
-							<p>I toifalilar soni: 6 </p>
-							<p>II toifalilar soni: 20 </p>
-							<p>Mutaxassislar soni: 11 </p>
-							O'rta maxsuslar soni: 1
-						</li>
-						<li>
-							<p><b>Jami sinf xonalari soni: 19</b></p>
-						</li>
-					</ul>
-				</div>
-			</div>
+			<?php
+				$left_menu->QoshimchaMalumotlar();
+			?>
 			<div class="panel panel-primary">
 				<div class="panel-heading text-center" style="line-height: 7px;">
 					<b style="text-transform: uppercase;">Online so'rovnoma</b>

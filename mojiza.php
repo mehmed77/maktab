@@ -120,16 +120,9 @@ $left_menu = new Menu();
     </div>
     <!-- RIGHT  MENU -->
     <div class="col-xs-3">
-        <div class="panel panel-primary">
-            <div class="panel-heading text-center" style="line-height: 7px;">
-                <b style="text-transform: uppercase;">Hikmatli So'zlar</b>
-            </div>
-            <div class="panel-body">
                 <?php
                 $left_menu->HikmatliSozlar();
                 ?>
-            </div>
-        </div>
         <div style="width: 100%; text-align: center; padding-bottom: 10px;">
             <img src="images/2016-yil.jpg">
         </div>
